@@ -1,0 +1,1271 @@
+{
+  "groups": [
+    {
+      "title": "Airman & Medical",
+      "id": "p61",
+      "short": "Airman & Medical",
+      "sections": [
+        {
+          "sec": "61.23",
+          "title": "\u00a7 61.23 Medical certificates: Requirement and duration.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.23",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) Operations requiring a medical certificate. Except as provided in paragraphs (b) and (c) of this section, a person\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Must hold a <mark class=\"hl-key\">first-class medical certificate</mark>:"
+            },
+            {
+              "depth": 0,
+              "html": "(i) When exercising the pilot-in-command privileges of an <mark class=\"hl-key\">airline transport pilot certificate</mark>;"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) When exercising the second-in-command privileges of an <mark class=\"hl-key\">airline transport pilot certificate</mark> in a flag or supplemental operation in part 121 of this chapter that requires three or more pilots; or"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) When serving as a required pilot flightcrew member in an operation conducted under part 121 of this chapter if the pilot has reached his or her 60th birthday."
+            },
+            {
+              "depth": 1,
+              "html": "(2) Must hold at least a second class medical certificate when exercising:"
+            },
+            {
+              "depth": 0,
+              "html": "(i) Second-in-command privileges of an <mark class=\"hl-key\">airline transport pilot certificate</mark> in part 121 of this chapter (other than operations specified in paragraph (a)(1)(ii) of this section);"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) Privileges of a <mark class=\"hl-key\">commercial pilot certificate</mark> in an aircraft other than a balloon or glider; or"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) Except as provided in paragraph (b)(5) of this section, privileges of a <mark class=\"hl-key\">commercial pilot certificate</mark> with a balloon class rating for compensation or hire; or"
+            },
+            {
+              "depth": 1,
+              "html": "(3) Must hold at least a <mark class=\"hl-key\">third-class medical certificate</mark>\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) When exercising the privileges of a private pilot certificate, recreational pilot certificate, or student pilot certificate, except when operating under the conditions and limitations set forth in \u00a7 61.113(i);"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) When exercising the privileges of a flight instructor certificate and acting as the <mark class=\"hl-key\">pilot in command</mark> or as a required flightcrew member, except when operating under the conditions and limitations set forth in \u00a7 61.113(i);"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) When taking a practical test in an aircraft for a recreational pilot, private pilot, commercial pilot, or <mark class=\"hl-key\">airline transport pilot certificate</mark>, or for a flight instructor certificate, except when operating under the conditions and limitations set forth in \u00a7 61.113(i); or"
+            },
+            {
+              "depth": 2,
+              "html": "(iv) When performing the duties as an Examiner in an aircraft when administering a practical test or proficiency check for an airman certificate, rating, or authorization, except when meeting the requirements to operate under the conditions and limitations set forth in \u00a7 61.113(i)."
+            },
+            {
+              "depth": 0,
+              "html": "(b) Operations not requiring a medical certificate. A person is not required to hold a medical certificate\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) When exercising the privileges of a student pilot certificate while seeking\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) A sport pilot certificate with glider or balloon privileges; or"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) A pilot certificate with a glider category rating or balloon class rating;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) When exercising the privileges of a sport pilot certificate with privileges in a glider or balloon;"
+            },
+            {
+              "depth": 1,
+              "html": "(3) When exercising the privileges of a pilot certificate with a glider category rating in a glider;"
+            },
+            {
+              "depth": 1,
+              "html": "(4) When exercising the privileges of a private pilot certificate with a balloon class rating in a balloon;"
+            },
+            {
+              "depth": 1,
+              "html": "(5) When exercising the privileges of a <mark class=\"hl-key\">commercial pilot certificate</mark> with a balloon class rating in a balloon if the person is providing flight training in accordance with \u00a7 61.133(a)(2)(ii);"
+            },
+            {
+              "depth": 1,
+              "html": "(6) When exercising the privileges of a flight instructor certificate with\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) A sport pilot rating in a glider or balloon; or"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) A glider category rating;"
+            },
+            {
+              "depth": 1,
+              "html": "(7) When exercising the privileges of a flight instructor certificate if the person is not acting as <mark class=\"hl-key\">pilot in command</mark> or serving as a required pilot flight crewmember;"
+            },
+            {
+              "depth": 1,
+              "html": "(8) When exercising the privileges of a ground instructor certificate;"
+            },
+            {
+              "depth": 1,
+              "html": "(9) When serving as an Examiner or check airman and administering a practical test or proficiency check for an airman certificate, rating, or authorization conducted in a glider, balloon, flight simulator, or flight training device;"
+            },
+            {
+              "depth": 1,
+              "html": "(10) When taking a practical test or a proficiency check for a certificate, rating, authorization or operating privilege conducted in a glider, balloon, flight simulator, or flight training device;"
+            },
+            {
+              "depth": 1,
+              "html": "(11) When a military pilot of the U.S. Armed Forces can show evidence of an up-to-date medical examination authorizing pilot flight status issued by the U.S. Armed Forces and\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) The flight does not require higher than a <mark class=\"hl-key\">third-class medical certificate</mark>; and"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) The flight conducted is a domestic flight operation within U.S. airspace; or"
+            },
+            {
+              "depth": 1,
+              "html": "(12) When exercising the privileges of a student pilot certificate or higher while acting as <mark class=\"hl-key\">pilot in command</mark> on a special medical flight test authorized under part 67 of this chapter."
+            },
+            {
+              "depth": 0,
+              "html": "(c) Operations requiring either a medical certificate or U.S. driver's license. (1) A person must hold and possess either a medical certificate issued under part 67 of this chapter or a U.S. driver's license when\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) Exercising the privileges of a student pilot certificate while seeking sport pilot privileges in an aircraft meeting the performance limits and design requirements of \u00a7 61.316 other than a glider or balloon;"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) Exercising the privileges of a sport pilot certificate in an aircraft meeting the performance limits and design requirements of \u00a7 61.316 other than a glider or balloon;"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) Exercising the privileges of a flight instructor certificate with a sport pilot rating while acting as <mark class=\"hl-key\">pilot in command</mark> or serving as a required flight crewmember of an aircraft meeting the performance limits and design requirements of \u00a7 61.316 other than a glider or balloon;"
+            },
+            {
+              "depth": 2,
+              "html": "(iv) Serving as an Examiner and administering a practical test for the issuance of a sport pilot certificate in an aircraft meeting the performance limits and design requirements of \u00a7 61.316 other than a glider or balloon;"
+            },
+            {
+              "depth": 0,
+              "html": "(v) Exercising the privileges of a student, recreational or private pilot certificate if the flight is conducted under the conditions and limitations set forth in \u00a7 61.113(i);"
+            },
+            {
+              "depth": 2,
+              "html": "(vi) Notwithstanding paragraphs (b)(1), (b)(2), and (b)(6) of this section, exercising the privileges of sport pilot certificate at night under the conditions and limitations set forth in \u00a7 61.113(i);"
+            },
+            {
+              "depth": 2,
+              "html": "(vii) Exercising the privileges of a flight instructor certificate and acting as the <mark class=\"hl-key\">pilot in command</mark> or as a required flight crewmember if the flight is conducted under the conditions and limitations set forth in \u00a7 61.113(i); or"
+            },
+            {
+              "depth": 2,
+              "html": "(viii) Serving as an Examiner and administering a practical test or proficiency check for an airman certificate, rating, or authorization if the flight is conducted under the conditions and limitations set forth in \u00a7 61.113(i)."
+            },
+            {
+              "depth": 1,
+              "html": "(2) A person using a U.S. driver's license to meet the requirements of paragraph (c) while exercising sport pilot privileges must\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) Comply with each restriction and limitation imposed by that person's U.S. driver's license and any judicial or administrative order applying to the operation of a motor vehicle;"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) Have been found eligible for the issuance of at least a third-class airman medical certificate at the time of his or her most recent application (if the person has applied for a medical certificate);"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) Not have had his or her most recently issued medical certificate (if the person has held a medical certificate) suspended or revoked or most recent Authorization for a Special Issuance of a Medical Certificate withdrawn; and"
+            },
+            {
+              "depth": 2,
+              "html": "(iv) Not know or have reason to know of any medical condition that would make that person unable to operate an aircraft meeting the performance limits and design requirements of \u00a7 61.316 in a safe manner."
+            },
+            {
+              "depth": 1,
+              "html": "(3) A person using a U.S. driver's license to meet the requirements of paragraph (c) while operating under the conditions and limitations of \u00a7 61.113(i) must meet the following requirements\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) The person must\u2014"
+            },
+            {
+              "depth": 3,
+              "html": "(A) Comply with all medical requirements or restrictions associated with his or her U.S. driver's license;"
+            },
+            {
+              "depth": 3,
+              "html": "(B) At any point after July 14, 2006, have held a medical certificate issued under part 67 of this chapter;"
+            },
+            {
+              "depth": 3,
+              "html": "(C) Complete the medical education course set forth in \u00a7 68.3 of this chapter during the <mark class=\"hl-num\">24 calendar months</mark> before acting as <mark class=\"hl-key\">pilot in command</mark> or serving as a required flightcrew member in an operation conducted under \u00a7 61.113(i) and retain a certification of course completion in accordance with \u00a7 68.3(b)(1) of this chapter;"
+            },
+            {
+              "depth": 3,
+              "html": "(D) Receive a comprehensive medical examination from a State-licensed physician during the <mark class=\"hl-num\">48 calendar months</mark> before acting as <mark class=\"hl-key\">pilot in command</mark> or serving as a required flightcrew member of an operation conducted under \u00a7 61.113(i) and that medical examination is conducted in accordance with the requirements in part 68 of this chapter; and"
+            },
+            {
+              "depth": 3,
+              "html": "(E) If the individual has been diagnosed with any medical condition that may impact the ability of the individual to fly, be under the care and treatment of a State-licensed physician when acting as <mark class=\"hl-key\">pilot in command</mark> or serving as a required flightcrew member of an operation conducted under \u00a7 61.113(i)."
+            },
+            {
+              "depth": 2,
+              "html": "(ii) The most recently issued medical certificate\u2014"
+            },
+            {
+              "depth": 3,
+              "html": "(A) May include an authorization for special issuance;"
+            },
+            {
+              "depth": 3,
+              "html": "(B) May be expired; and"
+            },
+            {
+              "depth": 3,
+              "html": "(C) Cannot have been suspended or revoked."
+            },
+            {
+              "depth": 2,
+              "html": "(iii) The most recently issued Authorization for a Special Issuance of a Medical Certificate cannot have been withdrawn; and"
+            },
+            {
+              "depth": 2,
+              "html": "(iv) The most recent application for an airman medical certificate submitted to the FAA cannot have been completed and denied."
+            },
+            {
+              "depth": 0,
+              "html": "(d) Duration of a medical certificate. Use the following table to determine duration for each class of medical certificate:"
+            }
+          ]
+        },
+        {
+          "sec": "67.3",
+          "title": "\u00a7 67.3 Issue.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/section-67.3",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "A person who meets the medical standards prescribed in this part, based on medical examination and evaluation of the person's history and condition, is entitled to an appropriate medical certificate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part 135 \u2014 Operating Limitations (Subpart D)",
+      "id": "p135d",
+      "short": "Operating Limits",
+      "sections": [
+        {
+          "sec": "135.205",
+          "title": "\u00a7 135.205 VFR: Visibility requirements.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.205",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) No person may operate an airplane under VFR in uncontrolled airspace when the ceiling is less than <mark class=\"hl-num\">1,000 feet</mark> unless flight visibility is at least <mark class=\"hl-num\">2 miles</mark>."
+            },
+            {
+              "depth": 0,
+              "html": "(b) No person may operate a helicopter under VFR in Class G airspace at an altitude of <mark class=\"hl-num\">1,200 feet</mark> or less above the surface or within the lateral boundaries of the surface areas of Class B, Class C, Class D, or Class E airspace designated for an airport unless the visibility is at least\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) During the day\u2014 <mark class=\"hl-num\"><mark class=\"hl-num\">1/2 mile</mark></mark>; or"
+            },
+            {
+              "depth": 1,
+              "html": "(2) At night\u2014<mark class=\"hl-num\">1 mile</mark>."
+            }
+          ]
+        },
+        {
+          "sec": "135.221",
+          "title": "\u00a7 135.221 IFR: Alternate airport weather minimums.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.221",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) Aircraft other than rotorcraft. No person may designate an alternate airport unless the weather reports or forecasts, or any combination of them, indicate that the weather conditions will be at or above authorized alternate airport landing minimums for that airport at the estimated time of arrival."
+            },
+            {
+              "depth": 0,
+              "html": "(b) Rotorcraft. Unless otherwise authorized by the Administrator, no person may include an alternate airport in an IFR flight plan unless appropriate weather reports or weather forecasts, or a combination of them, indicate that, at the estimated time of arrival at the alternate airport, the ceiling and visibility at that airport will be at or above the following weather minimums\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) If, for the alternate airport, an instrument approach procedure has been published in part 97 of this chapter or a special instrument approach procedure has been issued by the FAA to the certificate holder, the ceiling is <mark class=\"hl-num\">200 feet</mark> above the minimum for the approach to be flown, and visibility is at least <mark class=\"hl-num\">1 statute mile</mark> but never less than the minimum visibility for the approach to be flown."
+            },
+            {
+              "depth": 1,
+              "html": "(2) If, for the alternate airport, no instrument approach procedure has been published in part 97 of this chapter and no special instrument approach procedure has been issued by the FAA to the certificate holder, the ceiling and visibility minimums are those allowing descent from the minimum enroute altitude (MEA), approach, and landing under basic VFR."
+            }
+          ]
+        },
+        {
+          "sec": "135.223",
+          "title": "\u00a7 135.223 IFR: Alternate airport requirements.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.223",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) Except as provided in paragraph (b) of this section, no person may operate an aircraft in IFR conditions unless it carries enough fuel (considering weather reports or forecasts or any combination of them) to\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Complete the flight to the first airport of intended landing;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Fly from that airport to the alternate airport; and"
+            },
+            {
+              "depth": 1,
+              "html": "(3) Fly after that for 45 minutes at normal cruising speed or, for helicopters, fly after that for 30 minutes at normal cruising speed."
+            },
+            {
+              "depth": 0,
+              "html": "(b) Paragraph (a)(2) of this section does not apply if part 97 of this chapter prescribes a standard instrument approach procedure for the first airport of intended landing and, for at least one hour before and after the estimated time of arrival, the appropriate weather reports or forecasts, or any combination of them, indicate that\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) The ceiling will be at least <mark class=\"hl-num\">1,500 feet</mark> above the lowest circling approach MDA; or"
+            },
+            {
+              "depth": 1,
+              "html": "(2) If a circling instrument approach is not authorized for the airport, the ceiling will be at least <mark class=\"hl-num\">1,500 feet</mark> above the lowest published minimum or <mark class=\"hl-num\">2,000 feet</mark> above the airport elevation, whichever is higher; and"
+            },
+            {
+              "depth": 1,
+              "html": "(3) Visibility for that airport is forecast to be at least three miles, or two miles more than the lowest applicable visibility minimums, whichever is the greater, for the instrument approach procedure to be used at the destination airport."
+            }
+          ]
+        },
+        {
+          "sec": "135.225",
+          "title": "\u00a7 135.225 IFR: Takeoff, approach and landing minimums.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.225",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) Except to the extent permitted by paragraphs (b) and (j) of this section, no pilot may begin an instrument approach procedure to an airport unless\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) That airport has a weather reporting facility operated by the U.S. National Weather Service, a source approved by U.S. National Weather Service, or a source approved by the Administrator; and"
+            },
+            {
+              "depth": 1,
+              "html": "(2) The latest weather report issued by that weather reporting facility indicates that weather conditions are at or above the authorized IFR landing minimums for that airport."
+            },
+            {
+              "depth": 0,
+              "html": "(b) A pilot conducting an eligible on-demand operation may begin and conduct an instrument approach procedure to an airport that does not have a weather reporting facility operated by the U.S. National Weather Service, a source approved by the U.S. National Weather Service, or a source approved by the Administrator if\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) The alternate airport has a weather reporting facility operated by the U.S. National Weather Service, a source approved by the U.S. National Weather Service, or a source approved by the Administrator; and"
+            },
+            {
+              "depth": 1,
+              "html": "(2) The latest weather report issued by the weather reporting facility includes a current local altimeter setting for the destination airport. If no local altimeter setting for the destination airport is available, the pilot may use the current altimeter setting provided by the facility designated on the approach chart for the destination airport."
+            },
+            {
+              "depth": 0,
+              "html": "(c) Except as provided in paragraph (j) of this section, no pilot may begin the final approach segment of an instrument approach procedure to an airport unless the latest weather reported by the facility described in paragraph (a)(1) of this section indicates that weather conditions are at or above the authorized IFR landing minimums for that procedure."
+            },
+            {
+              "depth": 0,
+              "html": "(d) Except as provided in paragraph (j) of this section, a pilot who has begun the final approach segment of an instrument approach to an airport under paragraph (c) of this section, and receives a later weather report indicating that conditions have worsened to below the minimum requirements, may continue the approach only if the following conditions are met\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) The later weather report is received when the aircraft is in one of the following approach phases:"
+            },
+            {
+              "depth": 0,
+              "html": "(i) The aircraft is on an ILS final approach and has passed the final approach fix;"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) The aircraft is on an ASR or PAR final approach and has been turned over to the final approach controller; or"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) The aircraft is on a non-precision final approach and the aircraft\u2014"
+            },
+            {
+              "depth": 3,
+              "html": "(A) Has passed the appropriate facility or final approach fix; or"
+            },
+            {
+              "depth": 3,
+              "html": "(B) Where a final approach fix is not specified, has completed the procedure turn and is established inbound toward the airport on the final approach course within the distance prescribed in the procedure; and"
+            },
+            {
+              "depth": 1,
+              "html": "(2) The <mark class=\"hl-key\">pilot in command</mark> finds, on reaching the authorized MDA or DA/DH, that the actual weather conditions are at or above the minimums prescribed for the procedure being used."
+            },
+            {
+              "depth": 0,
+              "html": "(e) The MDA or DA/DH and visibility landing minimums prescribed in part 97 of this chapter or in the operator's operations specifications are increased by <mark class=\"hl-num\">100 feet</mark> and <mark class=\"hl-num\"><mark class=\"hl-num\">1/2 mile</mark></mark> respectively, but not to exceed the ceiling and visibility minimums for that airport when used as an alternate airport, for each <mark class=\"hl-key\">pilot in command</mark> of a turbine-powered airplane who has not served at least <mark class=\"hl-num\">100 hours</mark> as <mark class=\"hl-key\">pilot in command</mark> in that type of airplane."
+            },
+            {
+              "depth": 0,
+              "html": "(f) Each pilot making an IFR takeoff or approach and landing at a military or foreign airport shall comply with applicable instrument approach procedures and weather minimums prescribed by the authority having jurisdiction over that airport. In addition, unless authorized by the certificate holder's operations specifications, no pilot may, at that airport\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Take off under IFR when the visibility is less than <mark class=\"hl-num\">1 mile</mark>; or"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Make an instrument approach when the visibility is less than <mark class=\"hl-num\"><mark class=\"hl-num\">1/2 mile</mark></mark>."
+            },
+            {
+              "depth": 0,
+              "html": "(g) If takeoff minimums are specified in part 97 of this chapter for the take- off airport, no pilot may take off an aircraft under IFR when the weather conditions reported by the facility described in paragraph (a)(1) of this section are less than the takeoff minimums specified for the takeoff airport in part 97 or in the certificate holder's operations specifications."
+            },
+            {
+              "depth": 0,
+              "html": "(h) Except as provided in paragraph (i) of this section, if takeoff minimums are not prescribed in part 97 of this chapter for the takeoff airport, no pilot may takeoff an aircraft under IFR when the weather conditions reported by the facility described in paragraph (a)(1) of this section are less than that prescribed in part 91 of this chapter or in the certificate holder's operations specifications."
+            },
+            {
+              "depth": 0,
+              "html": "(i) At airports where straight-in instrument approach procedures are authorized, a pilot may takeoff an aircraft under IFR when the weather conditions reported by the facility described in paragraph (a)(1) of this section are equal to or better than the lowest straight-in landing minimums, unless otherwise restricted, if\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) The wind direction and velocity at the time of takeoff are such that a straight-in instrument approach can be made to the runway served by the instrument approach;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) The associated ground facilities upon which the landing minimums are predicated and the related airborne equipment are in normal operation; and"
+            },
+            {
+              "depth": 1,
+              "html": "(3) The certificate holder has been approved for such operations."
+            },
+            {
+              "depth": 0,
+              "html": "(j) A pilot may begin an instrument approach procedure, or continue an approach, at an airport when the visibility is reported to be less than the visibility minimums prescribed for that procedure if the pilot uses an operable EFVS in accordance with \u00a7 91.176 of this chapter and the certificate holder's operations specifications for EFVS operations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part 135 \u2014 Crew Qualifications (Subpart E)",
+      "id": "p135e",
+      "short": "Crew Quals",
+      "sections": [
+        {
+          "sec": "135.243",
+          "title": "\u00a7 135.243 Pilot in command qualifications.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.243",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) <mark class=\"hl-key\">No certificate holder</mark> may use a person, nor may any person serve, as <mark class=\"hl-key\">pilot in command</mark> in passenger-carrying operations-"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Of a turbojet airplane, of an airplane having a passenger-seat configuration, excluding each crewmember seat, of <mark class=\"hl-num\">10 seats</mark> or more, or of a multiengine airplane in a commuter operation as defined in part 110 of this chapter, unless that person holds an <mark class=\"hl-key\">airline transport pilot certificate</mark> with appropriate category and class ratings and, if required, an appropriate <mark class=\"hl-key\">type rating</mark> for that airplane."
+            },
+            {
+              "depth": 1,
+              "html": "(2) Of a helicopter in a scheduled interstate air transportation operation by an air carrier within the 48 contiguous states unless that person holds an <mark class=\"hl-key\">airline transport pilot certificate</mark>, appropriate <mark class=\"hl-key\">type rating</mark>s, and an <mark class=\"hl-key\">instrument rating</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(3) Of a turbojet-powered powered-lift, of a powered-lift having a passenger-seat configuration, excluding each crewmember seat, of <mark class=\"hl-num\">10 seats</mark> or more, or of a powered-lift in a commuter operation as defined in part 110 of this chapter, unless that person holds an <mark class=\"hl-key\">airline transport pilot certificate</mark> with appropriate category rating, and appropriate <mark class=\"hl-key\">type rating</mark> not limited to VFR for that powered-lift."
+            },
+            {
+              "depth": 0,
+              "html": "(b) Except as provided in paragraph (a) of this section, <mark class=\"hl-key\">no certificate holder</mark> may use a person, nor may any person serve, as <mark class=\"hl-key\">pilot in command</mark> of an aircraft under VFR unless that person-"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Holds at least a <mark class=\"hl-key\">commercial pilot certificate</mark> with appropriate category and class ratings; an appropriate <mark class=\"hl-key\">type rating</mark> for that aircraft, if required; and for a powered-lift, a <mark class=\"hl-key\">type rating</mark> for that aircraft not limited to VFR; and"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Has had at least <mark class=\"hl-num\">500 hours</mark>' time as a pilot, including at least <mark class=\"hl-num\">100 hours</mark> of cross-country <mark class=\"hl-key\">flight time</mark>, at least <mark class=\"hl-num\">25 hours</mark> of which were at night; and"
+            },
+            {
+              "depth": 1,
+              "html": "(3) For an airplane, holds an <mark class=\"hl-key\">instrument rating</mark> or an <mark class=\"hl-key\">airline transport pilot certificate</mark> with an airplane category rating; or"
+            },
+            {
+              "depth": 1,
+              "html": "(4) For helicopter operations conducted VFR over-the-top, holds a helicopter <mark class=\"hl-key\">instrument rating</mark>, or an <mark class=\"hl-key\">airline transport pilot certificate</mark> with a category and class rating for that aircraft, not limited to VFR; or"
+            },
+            {
+              "depth": 1,
+              "html": "(5) For a powered-lift, holds an instrument-powered-lift rating or an <mark class=\"hl-key\">airline transport pilot certificate</mark> with a powered-lift category rating."
+            },
+            {
+              "depth": 0,
+              "html": "(c) Except as provided in paragraph (a) of this section, <mark class=\"hl-key\">no certificate holder</mark> may use a person, nor may any person serve, as <mark class=\"hl-key\">pilot in command</mark> of an aircraft under IFR unless that person-"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Holds at least a <mark class=\"hl-key\">commercial pilot certificate</mark> with appropriate category and class ratings, and if required, an appropriate <mark class=\"hl-key\">type rating</mark> for that aircraft (the <mark class=\"hl-key\">type rating</mark> for powered-lift <mark class=\"hl-key\">may not</mark> be limited to VFR); and"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Has had at least <mark class=\"hl-num\">1,200 hours</mark> of <mark class=\"hl-key\">flight time</mark> as a pilot, including <mark class=\"hl-num\">500 hours</mark> of cross country <mark class=\"hl-key\">flight time</mark>, <mark class=\"hl-num\">100 hours</mark> of night <mark class=\"hl-key\">flight time</mark>, and <mark class=\"hl-num\">75 hours</mark> of actual or simulated instrument time at least <mark class=\"hl-num\">50 hours</mark> of which were in actual flight; and"
+            },
+            {
+              "depth": 1,
+              "html": "(3) For an airplane, holds an <mark class=\"hl-key\">instrument rating</mark> or an <mark class=\"hl-key\">airline transport pilot certificate</mark> with an airplane category rating; or"
+            },
+            {
+              "depth": 1,
+              "html": "(4) For a helicopter, holds a helicopter <mark class=\"hl-key\">instrument rating</mark>, or an <mark class=\"hl-key\">airline transport pilot certificate</mark> with a category and class rating for that aircraft, not limited to VFR; or"
+            },
+            {
+              "depth": 1,
+              "html": "(5) For a powered-lift, holds an instrument-powered-lift rating or an <mark class=\"hl-key\">airline transport pilot certificate</mark> with a powered-lift category rating."
+            },
+            {
+              "depth": 0,
+              "html": "(d) Paragraph (b)(3) of this section does not apply when\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) The aircraft used is a single reciprocating-engine-powered airplane;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) The certificate holder does not conduct any operation pursuant to a published flight schedule which specifies five or more round trips a week between two or more points and places between which the round trips are performed, and does not transport mail by air under a contract or contracts with the United States Postal Service having total amount estimated at the beginning of any semiannual reporting period (January 1-June 30; July 1-December 31) to be in excess of $20,000 over the <mark class=\"hl-num\">12 months</mark> commencing with the beginning of the reporting period;"
+            },
+            {
+              "depth": 1,
+              "html": "(3) The area, as specified in the certificate holder's operations specifications, is an isolated area, as determined by the Flight Standards office, if it is shown that\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) The primary means of navigation in the area is by pilotage, since radio navigational aids are largely ineffective; and"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) The primary means of transportation in the area is by air;"
+            },
+            {
+              "depth": 1,
+              "html": "(4) Each flight is conducted under day VFR with a ceiling of not less than <mark class=\"hl-num\">1,000 feet</mark> and visibility not less than <mark class=\"hl-num\">3 statute miles</mark>;"
+            },
+            {
+              "depth": 1,
+              "html": "(5) Weather reports or forecasts, or any combination of them, indicate that for the period commencing with the planned departure and ending 30 minutes after the planned arrival at the destination the flight may be conducted under VFR with a ceiling of not less than <mark class=\"hl-num\">1,000 feet</mark> and visibility of not less than <mark class=\"hl-num\">3 statute miles</mark>, except that if weather reports and forecasts are not available, the <mark class=\"hl-key\">pilot in command</mark> may use that pilot's observations or those of other persons competent to supply weather observations if those observations indicate the flight may be conducted under VFR with the ceiling and visibility required in this paragraph;"
+            },
+            {
+              "depth": 1,
+              "html": "(6) The distance of each flight from the certificate holder's base of operation to destination does not exceed <mark class=\"hl-num\">250 nautical miles</mark> for a pilot who holds a <mark class=\"hl-key\">commercial pilot certificate</mark> with an airplane rating without an <mark class=\"hl-key\">instrument rating</mark>, provided the pilot's certificate does not contain any limitation to the contrary; and"
+            },
+            {
+              "depth": 1,
+              "html": "(7) The areas to be flown are approved by the responsible Flight Standards office and are listed in the certificate holder's operations specifications."
+            }
+          ]
+        },
+        {
+          "sec": "135.244",
+          "title": "\u00a7 135.244 Operating experience.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.244",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) <mark class=\"hl-key\">No certificate holder</mark> may use any person, nor may any person serve, as a <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated in a commuter operation, as defined in part 110 of this chapter unless that person has completed, prior to designation as <mark class=\"hl-key\">pilot in command</mark>, on that make and basic model aircraft and in that crewmember position, the following <mark class=\"hl-key\">operating experience</mark> in each make and basic model of aircraft to be flown:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Aircraft, single engine\u2014<mark class=\"hl-num\">10 hours</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(2) Aircraft multiengine, reciprocating engine-powered\u2014<mark class=\"hl-num\">15 hours</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(3) Aircraft multiengine, turbine engine-powered\u2014<mark class=\"hl-num\">20 hours</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(4) Airplane, turbojet-powered\u2014<mark class=\"hl-num\">25 hours</mark>."
+            },
+            {
+              "depth": 0,
+              "html": "(b) In acquiring the <mark class=\"hl-key\">operating experience</mark>, each person must comply with the following:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) The <mark class=\"hl-key\">operating experience</mark> must be acquired after satisfactory completion of the appropriate ground and flight training for the aircraft and crewmember position. Approved provisions for the <mark class=\"hl-key\">operating experience</mark> must be included in the certificate holder's training program."
+            },
+            {
+              "depth": 1,
+              "html": "(2) The experience must be acquired in flight during commuter passenger-carrying operations under this part. However, in the case of an aircraft not previously used by the certificate holder in operations under this part, <mark class=\"hl-key\">operating experience</mark> acquired in the aircraft during proving flights or ferry flights may be used to meet this requirement."
+            },
+            {
+              "depth": 1,
+              "html": "(3) Each person must acquire the <mark class=\"hl-key\">operating experience</mark> while performing the duties of a <mark class=\"hl-key\">pilot in command</mark> under the supervision of a qualified check pilot."
+            },
+            {
+              "depth": 1,
+              "html": "(4) The hours of <mark class=\"hl-key\">operating experience</mark> may be reduced to not less than <mark class=\"hl-num\">50 percent</mark> of the hours required by this section by the substitution of one additional takeoff and landing for each hour of flight."
+            }
+          ]
+        },
+        {
+          "sec": "135.245",
+          "title": "\u00a7 135.245 Second in command qualifications.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.245",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) Except as provided in paragraph (b) of this section, <mark class=\"hl-key\">no certificate holder</mark> may use any person, nor may any person serve, as <mark class=\"hl-key\">second in command</mark> of an aircraft unless that person holds at least a <mark class=\"hl-key\">commercial pilot certificate</mark> with appropriate category and class ratings and an <mark class=\"hl-key\">instrument rating</mark>."
+            },
+            {
+              "depth": 0,
+              "html": "(b) A <mark class=\"hl-key\">second in command</mark> of a helicopter operated under VFR, other than over-the-top, must have at least a <mark class=\"hl-key\">commercial pilot certificate</mark> with an appropriate aircraft category and class rating."
+            },
+            {
+              "depth": 0,
+              "html": "(c) <mark class=\"hl-key\">No certificate holder</mark> may use any person, nor may any person serve, as <mark class=\"hl-key\">second in command</mark> under IFR unless that person meets the following instrument experience requirements:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Use of an airplane, powered-lift, or helicopter for maintaining instrument experience. Within the <mark class=\"hl-num\">6 calendar months</mark> preceding the month of the flight, that person performed and logged at least the following tasks and iterations in-flight in an airplane, powered-lift, or helicopter, as appropriate, in actual weather conditions, or under simulated instrument conditions using a view-limiting device:"
+            },
+            {
+              "depth": 0,
+              "html": "(i) Six instrument approaches;"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) Holding procedures and tasks; and"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) Intercepting and tracking courses through the use of navigational electronic systems."
+            },
+            {
+              "depth": 1,
+              "html": "(2) Use of an FSTD for maintaining instrument experience. A person may accomplish the requirements in paragraph (c)(1) of this section in an approved FSTD, or a combination of aircraft and FSTD, provided:"
+            },
+            {
+              "depth": 0,
+              "html": "(i) The FSTD represents the category of aircraft for the <mark class=\"hl-key\">instrument rating</mark> privileges to be maintained;"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) The person performs the tasks and iterations in simulated instrument conditions; and"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) A flight instructor qualified under \u00a7 135.338 or a check pilot qualified under \u00a7 135.337 observes the tasks and iterations and signs the person's logbook or training record to verify the time and content of the session."
+            },
+            {
+              "depth": 0,
+              "html": "(d) A <mark class=\"hl-key\">second in command</mark> who has failed to meet the instrument experience requirements of paragraph (c) of this section for more than six calendar months must reestablish instrument recency under the supervision of a flight instructor qualified under \u00a7 135.338 or a check pilot qualified under \u00a7 135.337. To reestablish instrument recency, a <mark class=\"hl-key\">second in command</mark> must complete at least the following areas of operation required for the <mark class=\"hl-key\">instrument rating</mark> practical test in an aircraft or FSTD that represents the category of aircraft for the instrument experience requirements to be reestablished:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Air traffic control clearances and procedures;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Flight by reference to instruments;"
+            },
+            {
+              "depth": 1,
+              "html": "(3) Navigation systems;"
+            },
+            {
+              "depth": 1,
+              "html": "(4) Instrument approach procedures;"
+            },
+            {
+              "depth": 1,
+              "html": "(5) Emergency operations; and"
+            },
+            {
+              "depth": 1,
+              "html": "(6) Postflight procedures."
+            }
+          ]
+        },
+        {
+          "sec": "135.247",
+          "title": "\u00a7 135.247 Pilot qualifications: Recent experience.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.247",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) <mark class=\"hl-key\">No certificate holder</mark> may use any person, nor may any person serve, as <mark class=\"hl-key\">pilot in command</mark> of an aircraft carrying passengers unless, within the preceding <mark class=\"hl-num\">90 days</mark>, that person has\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Made three takeoffs and three landings as the sole manipulator of the flight controls in an aircraft of the same category and class and, if a <mark class=\"hl-key\">type rating</mark> is required, of the same type in which that person is to serve; or"
+            },
+            {
+              "depth": 1,
+              "html": "(2) For operation during the period beginning <mark class=\"hl-num\">1 hour</mark> after sunset and ending <mark class=\"hl-num\">1 hour</mark> before sunrise (as published in the Air Almanac), made three takeoffs and three landings during that period as the sole manipulator of the flight controls in an aircraft of the same category and class and, if a <mark class=\"hl-key\">type rating</mark> is required, of the same type in which that person is to serve."
+            },
+            {
+              "depth": 1,
+              "html": "(3) Paragraph (a)(2) of this section does not apply to a <mark class=\"hl-key\">pilot in command</mark> of a turbine-powered airplane that is type certificated for more than one pilot crewmember, provided that pilot has complied with the requirements of paragraph (a)(3)(i) or (ii) of this section:"
+            },
+            {
+              "depth": 0,
+              "html": "(i) The <mark class=\"hl-key\">pilot in command</mark> must hold at least a <mark class=\"hl-key\">commercial pilot certificate</mark> with the appropriate category, class, and <mark class=\"hl-key\">type rating</mark> for each airplane that is type certificated for more than one pilot crewmember that the pilot seeks to operate under this alternative, and:"
+            },
+            {
+              "depth": 3,
+              "html": "(A) That pilot must have logged at least <mark class=\"hl-num\">1,500 hours</mark> of aeronautical experience as a pilot;"
+            },
+            {
+              "depth": 3,
+              "html": "(B) In each airplane that is type certificated for more than one pilot crewmember that the pilot seeks to operate under this alternative, that pilot must have accomplished and logged the daytime takeoff and landing recent flight experience of paragraph (a) of this section, as the sole manipulator of the flight controls;"
+            },
+            {
+              "depth": 3,
+              "html": "(C) Within the preceding <mark class=\"hl-num\">90 days</mark> prior to the operation of that airplane that is type certificated for more than one pilot crewmember, the pilot must have accomplished and logged at least <mark class=\"hl-num\">15 hours</mark> of <mark class=\"hl-key\">flight time</mark> in the type of airplane that the pilot seeks to operate under this alternative; and"
+            },
+            {
+              "depth": 3,
+              "html": "(D) That pilot has accomplished and logged at least 3 takeoffs and 3 landings to a full stop, as the sole manipulator of the flight controls, in a turbine-powered airplane that requires more than one pilot crewmember. The pilot must have performed the takeoffs and landings during the period beginning <mark class=\"hl-num\">1 hour</mark> after sunset and ending <mark class=\"hl-num\">1 hour</mark> before sunrise within the preceding <mark class=\"hl-num\">6 months</mark> prior to the month of the flight."
+            },
+            {
+              "depth": 2,
+              "html": "(ii) The <mark class=\"hl-key\">pilot in command</mark> must hold at least a <mark class=\"hl-key\">commercial pilot certificate</mark> with the appropriate category, class, and <mark class=\"hl-key\">type rating</mark> for each airplane that is type certificated for more than one pilot crewmember that the pilot seeks to operate under this alternative, and:"
+            },
+            {
+              "depth": 3,
+              "html": "(A) That pilot must have logged at least <mark class=\"hl-num\">1,500 hours</mark> of aeronautical experience as a pilot;"
+            },
+            {
+              "depth": 3,
+              "html": "(B) In each airplane that is type certificated for more than one pilot crewmember that the pilot seeks to operate under this alternative, that pilot must have accomplished and logged the daytime takeoff and landing recent flight experience of paragraph (a) of this section, as the sole manipulator of the flight controls;"
+            },
+            {
+              "depth": 3,
+              "html": "(C) Within the preceding <mark class=\"hl-num\">90 days</mark> prior to the operation of that airplane that is type certificated for more than one pilot crewmember, the pilot must have accomplished and logged at least <mark class=\"hl-num\">15 hours</mark> of <mark class=\"hl-key\">flight time</mark> in the type of airplane that the pilot seeks to operate under this alternative; and"
+            },
+            {
+              "depth": 3,
+              "html": "(D) Within the preceding <mark class=\"hl-num\">12 months</mark> prior to the month of the flight, the pilot must have completed a training program that is approved under part 142 of this chapter. The approved training program must have required and the pilot must have performed, at least 6 takeoffs and 6 landings to a full stop as the sole manipulator of the controls in a flight simulator that is representative of a turbine-powered airplane that requires more than one pilot crewmember. The flight simulator's visual system must have been adjusted to represent the period beginning <mark class=\"hl-num\">1 hour</mark> after sunset and ending <mark class=\"hl-num\">1 hour</mark> before sunrise."
+            },
+            {
+              "depth": 0,
+              "html": "(b) For the purpose of paragraph (a) of this section, if the aircraft is a tailwheel airplane, each takeoff must be made in a tailwheel airplane and each landing must be made to a full stop in a tailwheel airplane."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part 135 \u2014 Flight Time & Rest (Subpart F)",
+      "id": "p135f",
+      "short": "Flight Time & Rest",
+      "sections": [
+        {
+          "sec": "135.261",
+          "title": "\u00a7 135.261 Applicability.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.261",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "Sections 135.263 through 135.273 of this part prescribe <mark class=\"hl-key\">flight time</mark> limitations, duty period limitations, and rest requirements for operations conducted under this part as follows:"
+            },
+            {
+              "depth": 0,
+              "html": "(a) Section 135.263 applies to all operations under this subpart."
+            },
+            {
+              "depth": 0,
+              "html": "(b) Section 135.265 applies to:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Scheduled passenger-carrying operations except those conducted solely within the state of Alaska. \u201cScheduled passenger-carrying operations\u201d means passenger-carrying operations that are conducted in accordance with a published schedule which covers at least five round trips per week on at least one route between two or more points, includes dates or times (or both), and is openly advertised or otherwise made readily available to the general public, and"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Any other operation under this part, if the operator elects to comply with \u00a7 135.265 and obtains an appropriate operations specification amendment."
+            },
+            {
+              "depth": 0,
+              "html": "(c) Sections 135.267 and 135.269 apply to any operation that is not a scheduled passenger-carrying operation and to any operation conducted solely within the State of Alaska, unless the operator elects to comply with \u00a7 135.265 as authorized under paragraph (b)(2) of this section."
+            },
+            {
+              "depth": 0,
+              "html": "(d) Section 135.271 contains special daily <mark class=\"hl-key\">flight time</mark> limits for operations conducted under the helicopter emergency medical evacuation service (HEMES)."
+            },
+            {
+              "depth": 0,
+              "html": "(e) Section 135.273 prescribes duty period limitations and rest requirements for flight attendants in all operations conducted under this part."
+            }
+          ]
+        },
+        {
+          "sec": "135.265",
+          "title": "\u00a7 135.265 Flight time limitations and rest requirements: Scheduled operations.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.265",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) <mark class=\"hl-key\">No certificate holder</mark> may schedule any flight crewmember, and no flight crewmember may accept an assignment, for <mark class=\"hl-key\">flight time</mark> in scheduled operations or in other commercial flying if that crewmember's total <mark class=\"hl-key\">flight time</mark> in all commercial flying will exceed\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) <mark class=\"hl-num\">1,200 hours</mark> in any calendar year."
+            },
+            {
+              "depth": 1,
+              "html": "(2) <mark class=\"hl-num\">120 hours</mark> in any calendar month."
+            },
+            {
+              "depth": 1,
+              "html": "(3) <mark class=\"hl-num\">34 hours</mark> in any <mark class=\"hl-num\">7 consecutive days</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(4) <mark class=\"hl-num\">8 hours</mark> during any <mark class=\"hl-num\">24 consecutive hours</mark> for a flight crew consisting of one pilot."
+            },
+            {
+              "depth": 1,
+              "html": "(5) <mark class=\"hl-num\">8 hours</mark> between required <mark class=\"hl-key\">rest period</mark>s for a flight crew consisting of two pilots qualified under this part for the operation being conducted."
+            },
+            {
+              "depth": 0,
+              "html": "(b) Except as provided in paragraph (c) of this section, <mark class=\"hl-key\">no certificate holder</mark> may schedule a flight crewmember, and no flight crewmember may accept an assignment, for <mark class=\"hl-key\">flight time</mark> during the <mark class=\"hl-num\">24 consecutive hours</mark> preceding the scheduled completion of any flight segment without a scheduled <mark class=\"hl-key\">rest period</mark> during that <mark class=\"hl-num\">24 hours</mark> of at least the following:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) <mark class=\"hl-num\">9 consecutive hours</mark> of rest for less than <mark class=\"hl-num\">8 hours</mark> of scheduled <mark class=\"hl-key\">flight time</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(2) <mark class=\"hl-num\">10 consecutive hours</mark> of rest for 8 or more but less than <mark class=\"hl-num\">9 hours</mark> of scheduled <mark class=\"hl-key\">flight time</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(3) <mark class=\"hl-num\">11 consecutive hours</mark> of rest for 9 or more hours of scheduled <mark class=\"hl-key\">flight time</mark>."
+            },
+            {
+              "depth": 0,
+              "html": "(c) A certificate holder may schedule a flight crewmember for less than the rest required in paragraph (b) of this section or may reduce a scheduled rest under the following conditions:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) A rest required under paragraph (b)(1) of this section may be scheduled for or reduced to a minimum of <mark class=\"hl-num\">8 hours</mark> if the flight crewmember is given a <mark class=\"hl-key\">rest period</mark> of at least <mark class=\"hl-num\">10 hours</mark> that must begin no later than <mark class=\"hl-num\">24 hours</mark> after the commencement of the reduced <mark class=\"hl-key\">rest period</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(2) A rest required under paragraph (b)(2) of this section may be scheduled for or reduced to a minimum of <mark class=\"hl-num\">8 hours</mark> if the flight crewmember is given a <mark class=\"hl-key\">rest period</mark> of at least <mark class=\"hl-num\">11 hours</mark> that must begin no later than <mark class=\"hl-num\">24 hours</mark> after the commencement of the reduced <mark class=\"hl-key\">rest period</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(3) A rest required under paragraph (b)(3) of this section may be scheduled for or reduced to a minimum of <mark class=\"hl-num\">9 hours</mark> if the flight crewmember is given a <mark class=\"hl-key\">rest period</mark> of at least <mark class=\"hl-num\">12 hours</mark> that must begin no later than <mark class=\"hl-num\">24 hours</mark> after the commencement of the reduced <mark class=\"hl-key\">rest period</mark>."
+            },
+            {
+              "depth": 0,
+              "html": "(d) Each certificate holder shall relieve each flight crewmember engaged in scheduled air transportation from all further duty for at least <mark class=\"hl-num\">24 consecutive hours</mark> during any <mark class=\"hl-num\">7 consecutive days</mark>."
+            }
+          ]
+        },
+        {
+          "sec": "135.267",
+          "title": "\u00a7 135.267 Flight time limitations and rest requirements: Unscheduled one- and two-pilot crews.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.267",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) <mark class=\"hl-key\">No certificate holder</mark> may assign any flight crewmember, and no flight crewmember may accept an assignment, for <mark class=\"hl-key\">flight time</mark> as a member of a one- or two-pilot crew if that crewmember's total <mark class=\"hl-key\">flight time</mark> in all commercial flying will exceed\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) <mark class=\"hl-num\">500 hours</mark> in any calendar quarter."
+            },
+            {
+              "depth": 1,
+              "html": "(2) <mark class=\"hl-num\">800 hours</mark> in any two consecutive calendar quarters."
+            },
+            {
+              "depth": 1,
+              "html": "(3) <mark class=\"hl-num\">1,400 hours</mark> in any calendar year."
+            },
+            {
+              "depth": 0,
+              "html": "(b) Except as provided in paragraph (c) of this section, during any <mark class=\"hl-num\">24 consecutive hours</mark> the total <mark class=\"hl-key\">flight time</mark> of the assigned flight when added to any other commercial flying by that flight crewmember <mark class=\"hl-key\">may not</mark> exceed\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) <mark class=\"hl-num\">8 hours</mark> for a flight crew consisting of one pilot; or"
+            },
+            {
+              "depth": 1,
+              "html": "(2) <mark class=\"hl-num\">10 hours</mark> for a flight crew consisting of two pilots qualified under this part for the operation being conducted."
+            },
+            {
+              "depth": 0,
+              "html": "(c) A flight crewmember's <mark class=\"hl-key\">flight time</mark> may exceed the <mark class=\"hl-key\">flight time</mark> limits of paragraph (b) of this section if the assigned <mark class=\"hl-key\">flight time</mark> occurs during a regularly assigned duty period of no more than <mark class=\"hl-num\">14 hours</mark> and\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) If this duty period is immediately preceded by and followed by a required <mark class=\"hl-key\">rest period</mark> of at least <mark class=\"hl-num\">10 consecutive hours</mark> of rest;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) If <mark class=\"hl-key\">flight time</mark> is assigned during this period, that total <mark class=\"hl-key\">flight time</mark> when added to any other commercial flying by the flight crewmember <mark class=\"hl-key\">may not</mark> exceed\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) <mark class=\"hl-num\">8 hours</mark> for a flight crew consisting of one pilot; or"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) <mark class=\"hl-num\">10 hours</mark> for a flight crew consisting of two pilots; and"
+            },
+            {
+              "depth": 1,
+              "html": "(3) If the combined duty and <mark class=\"hl-key\">rest period</mark>s equal <mark class=\"hl-num\">24 hours</mark>."
+            },
+            {
+              "depth": 0,
+              "html": "(d) Each assignment under paragraph (b) of this section must provide for at least <mark class=\"hl-num\">10 consecutive hours</mark> of rest during the 24-hour period that precedes the planned completion time of the assignment."
+            },
+            {
+              "depth": 0,
+              "html": "(e) When a flight crewmember has exceeded the daily <mark class=\"hl-key\">flight time</mark> limitations in this section, because of circumstances beyond the control of the certificate holder or flight crewmember (such as adverse weather conditions), that flight crewmember must have a <mark class=\"hl-key\">rest period</mark> before being assigned or accepting an assignment for <mark class=\"hl-key\">flight time</mark> of at least\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) <mark class=\"hl-num\">11 consecutive hours</mark> of rest if the <mark class=\"hl-key\">flight time</mark> limitation is exceeded by not more than 30 minutes;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) <mark class=\"hl-num\">12 consecutive hours</mark> of rest if the <mark class=\"hl-key\">flight time</mark> limitation is exceeded by more than 30 minutes, but not more than 60 minutes; and"
+            },
+            {
+              "depth": 1,
+              "html": "(3) <mark class=\"hl-num\">16 consecutive hours</mark> of rest if the <mark class=\"hl-key\">flight time</mark> limitation is exceeded by more than 60 minutes."
+            },
+            {
+              "depth": 0,
+              "html": "(f) The certificate holder must provide each flight crewmember at least 13 <mark class=\"hl-key\">rest period</mark>s of at least <mark class=\"hl-num\">24 consecutive hours</mark> each in each calendar quarter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part 135 \u2014 Testing & Checks (Subpart G)",
+      "id": "p135g",
+      "short": "Testing & Checks",
+      "sections": [
+        {
+          "sec": "135.293",
+          "title": "\u00a7 135.293 Initial and recurrent pilot testing requirements.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.293",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) <mark class=\"hl-key\">No certificate holder</mark> may use a pilot, nor may any person serve as a pilot, unless, since the beginning of the 12th calendar month before that service, that pilot has passed a written or oral test, given by the Administrator or an authorized check pilot, on that pilot's knowledge in the following areas\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) The appropriate provisions of parts 61, 91, and 135 of this chapter and the operations specifications and the manual of the certificate holder;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) For each type of aircraft to be flown by the pilot, the aircraft powerplant, major components and systems, major appliances, performance and operating limitations, standard and emergency operating procedures, and the contents of the approved Aircraft Flight Manual or equivalent, as applicable;"
+            },
+            {
+              "depth": 1,
+              "html": "(3) For each type of aircraft to be flown by the pilot, the method of determining compliance with weight and balance limitations for takeoff, landing and en route operations;"
+            },
+            {
+              "depth": 1,
+              "html": "(4) Navigation and use of air navigation aids appropriate to the operation or pilot authorization, including, when applicable, instrument approach facilities and procedures;"
+            },
+            {
+              "depth": 1,
+              "html": "(5) Air traffic control procedures, including IFR procedures when applicable;"
+            },
+            {
+              "depth": 1,
+              "html": "(6) Meteorology in general, including the principles of frontal systems, icing, fog, thunderstorms, and windshear, and, if appropriate for the operation of the certificate holder, high altitude weather;"
+            },
+            {
+              "depth": 1,
+              "html": "(7) Procedures for\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) Recognizing and avoiding severe weather situations;"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) Escaping from severe weather situations, in case of inadvertent encounters, including low-altitude windshear (except that rotorcraft pilots are not required to be tested on escaping from low-altitude windshear);"
+            },
+            {
+              "depth": 2,
+              "html": "(iii) Operating in or near thunderstorms (including best penetrating altitudes), turbulent air (including clear air turbulence), icing, hail, and other potentially hazardous meteorological conditions; and"
+            },
+            {
+              "depth": 1,
+              "html": "(8) New equipment, procedures, or techniques, as appropriate; and"
+            },
+            {
+              "depth": 1,
+              "html": "(9) For rotorcraft and powered-lift pilots, procedures for aircraft handling in flat-light, whiteout, and brownout conditions, including methods for recognizing and avoiding those conditions."
+            },
+            {
+              "depth": 0,
+              "html": "(b) <mark class=\"hl-key\">No certificate holder</mark> may use a pilot, nor may any person serve as a pilot, in any aircraft unless, since the beginning of the 12th calendar month before that service, that pilot has passed a <mark class=\"hl-key\">competency check</mark> given by the Administrator or an authorized check pilot in that class of aircraft, if single-engine airplane other than turbojet, or that type of aircraft, if helicopter, multiengine airplane, turbojet airplane, or powered-lift to determine the pilot's competence in practical skills and techniques in that aircraft or class of aircraft. The extent of the <mark class=\"hl-key\">competency check</mark> shall be determined by the Administrator or authorized check pilot conducting the <mark class=\"hl-key\">competency check</mark>. The <mark class=\"hl-key\">competency check</mark> may include any of the maneuvers and procedures currently required for the original issuance of the particular pilot certificate required for the operations authorized and appropriate to the category, class and type of aircraft involved. For the purposes of this paragraph (b), type, as to an airplane means any one of a group of airplanes determined by the Administrator to have a similar means of propulsion, the same manufacturer, and no significantly different handling or flight characteristics. For the purposes of this paragraph (b), type, as to a helicopter, means a basic make and model."
+            },
+            {
+              "depth": 0,
+              "html": "(c) Each <mark class=\"hl-key\">competency check</mark> given in a rotorcraft or powered-lift must include a demonstration of the pilot's ability to maneuver the rotorcraft or powered-lift solely by reference to instruments. The check must determine the pilot's ability to safely maneuver the rotorcraft or powered-lift into visual meteorological conditions following an inadvertent encounter with instrument meteorological conditions. For <mark class=\"hl-key\">competency check</mark>s in non-IFR-certified rotorcraft or powered-lift, the pilot must perform such maneuvers as are appropriate to the rotorcraft's or powered-lift's installed equipment, the certificate holder's operations specifications, and the operating environment."
+            },
+            {
+              "depth": 0,
+              "html": "(d) The <mark class=\"hl-key\">instrument proficiency check</mark> required by \u00a7 135.297 may be substituted for the <mark class=\"hl-key\">competency check</mark> required by this section for the type of aircraft used in the check."
+            },
+            {
+              "depth": 0,
+              "html": "(e) For the purpose of this part, competent performance of a procedure or maneuver by a person to be used as a pilot requires that the pilot be the obvious master of the aircraft, with the successful outcome of the maneuver never in doubt."
+            },
+            {
+              "depth": 0,
+              "html": "(f) The Administrator or authorized check pilot certifies the competency of each pilot who passes the knowledge or flight check in the certificate holder's pilot records."
+            },
+            {
+              "depth": 0,
+              "html": "(g) Portions of a required <mark class=\"hl-key\">competency check</mark> may be given in an aircraft simulator or other appropriate training device, if approved by the Administrator."
+            },
+            {
+              "depth": 0,
+              "html": "(h) Rotorcraft pilots must be tested on the subjects in paragraph (a)(9) of this section when taking a written or oral knowledge test after April 22, 2015. Rotorcraft pilots must be checked on the maneuvers and procedures in paragraph (c) of this section when taking a <mark class=\"hl-key\">competency check</mark> after April 22, 2015."
+            },
+            {
+              "depth": 0,
+              "html": "(i) If the certificate holder is authorized to conduct EFVS operations, the <mark class=\"hl-key\">competency check</mark> in paragraph (b) of this section must include tasks appropriate to the EFVS operations the certificate holder is authorized to conduct."
+            }
+          ]
+        },
+        {
+          "sec": "135.297",
+          "title": "\u00a7 135.297 Pilot in command: Instrument proficiency check requirements.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.297",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) <mark class=\"hl-key\">No certificate holder</mark> may use a pilot, nor may any person serve, as a <mark class=\"hl-key\">pilot in command</mark> of an aircraft under IFR unless, since the beginning of the 6th calendar month before that service, that pilot has passed an <mark class=\"hl-key\">instrument proficiency check</mark> under this section administered by the Administrator or an authorized check pilot."
+            },
+            {
+              "depth": 0,
+              "html": "(b) No pilot may use any type of precision instrument approach procedure under IFR unless, since the beginning of the 6th calendar month before that use, the pilot satisfactorily demonstrated that type of approach procedure. No pilot may use any type of nonprecision approach procedure under IFR unless, since the beginning of the 6th calendar month before that use, the pilot has satisfactorily demonstrated either that type of approach procedure or any other two different types of nonprecision approach procedures. The instrument approach procedure or procedures must include at least one straight-in approach, one circling approach, and one missed approach. Each type of approach procedure demonstrated must be conducted to published minimums for that procedure."
+            },
+            {
+              "depth": 0,
+              "html": "(c) The <mark class=\"hl-key\">instrument proficiency check</mark> required by paragraph (a) of this section consists of an oral or written equipment test and a flight check under simulated or actual IFR conditions. The equipment test includes questions on emergency procedures, engine operation, fuel and lubrication systems, power settings, stall speeds, best engine-out speed, propeller and supercharger operations, and hydraulic, mechanical, and electrical systems, as appropriate. The flight check includes navigation by instruments, recovery from simulated emergencies, and standard instrument approaches involving navigational facilities which that pilot is to be authorized to use. Each pilot taking the <mark class=\"hl-key\">instrument proficiency check</mark> must show that standard of competence required by \u00a7 135.293(e)."
+            },
+            {
+              "depth": 1,
+              "html": "(1) The <mark class=\"hl-key\">instrument proficiency check</mark> must\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) For a <mark class=\"hl-key\">pilot in command</mark> of an aircraft under \u00a7 135.243(a), include the procedures and maneuvers for an <mark class=\"hl-key\">airline transport pilot certificate</mark> in the particular type of aircraft, if appropriate; and"
+            },
+            {
+              "depth": 2,
+              "html": "(ii) For a <mark class=\"hl-key\">pilot in command</mark> of an aircraft under \u00a7 135.243(c), include the procedures and maneuvers for a <mark class=\"hl-key\">commercial pilot certificate</mark> with an <mark class=\"hl-key\">instrument rating</mark> and, if required, for the appropriate <mark class=\"hl-key\">type rating</mark>."
+            },
+            {
+              "depth": 1,
+              "html": "(2) The <mark class=\"hl-key\">instrument proficiency check</mark> must be given by an authorized check pilot or by the Administrator."
+            },
+            {
+              "depth": 0,
+              "html": "(d) If the <mark class=\"hl-key\">pilot in command</mark> is assigned to pilot only one type of aircraft, that pilot must take the <mark class=\"hl-key\">instrument proficiency check</mark> required by paragraph (a) of this section in that type of aircraft."
+            },
+            {
+              "depth": 0,
+              "html": "(e) If the <mark class=\"hl-key\">pilot in command</mark> is assigned to pilot more than one type of aircraft, that pilot must take the <mark class=\"hl-key\">instrument proficiency check</mark> required by paragraph (a) of this section in each type of aircraft to which that pilot is assigned, in rotation, but not more than one flight check during each period described in paragraph (a) of this section."
+            },
+            {
+              "depth": 0,
+              "html": "(f) If the <mark class=\"hl-key\">pilot in command</mark> is assigned to pilot both single-engine and multiengine aircraft, that pilot must initially take the <mark class=\"hl-key\">instrument proficiency check</mark> required by paragraph (a) of this section in a multiengine aircraft, and each succeeding check alternately in single-engine and multiengine aircraft, but not more than one flight check during each period described in paragraph (a) of this section. Portions of a required flight check may be given in an aircraft simulator or other appropriate training device, if approved by the Administrator."
+            },
+            {
+              "depth": 0,
+              "html": "(g) If the <mark class=\"hl-key\">pilot in command</mark> is authorized to use an autopilot system in place of a <mark class=\"hl-key\">second in command</mark>, that pilot must show, during the required <mark class=\"hl-key\">instrument proficiency check</mark>, that the pilot is able (without a <mark class=\"hl-key\">second in command</mark>) both with and without using the autopilot to\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Conduct instrument operations competently; and"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Properly conduct air-ground communications and comply with complex air traffic control instructions."
+            },
+            {
+              "depth": 1,
+              "html": "(3) Each pilot taking the autopilot check must show that, while using the autopilot, the aircraft can be operated as proficiently as it would be if a <mark class=\"hl-key\">second in command</mark> were present to handle air-ground communications and air traffic control instructions. The autopilot check need only be demonstrated once every <mark class=\"hl-num\">12 calendar months</mark> during the <mark class=\"hl-key\">instrument proficiency check</mark> required under paragraph (a) of this section."
+            }
+          ]
+        },
+        {
+          "sec": "135.299",
+          "title": "\u00a7 135.299 Pilot in command: Line checks: Routes and airports.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-135/section-135.299",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) <mark class=\"hl-key\">No certificate holder</mark> may use a pilot, nor may any person serve, as a <mark class=\"hl-key\">pilot in command</mark> of a flight unless, since the beginning of the 12th calendar month before that service, that pilot has passed a flight check in one of the types of aircraft which that pilot is to fly. The flight check shall\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Be given by an approved check pilot or by the Administrator;"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Consist of at least one flight over one route segment; and"
+            },
+            {
+              "depth": 1,
+              "html": "(3) Include takeoffs and landings at one or more representative airports. In addition to the requirements of this paragraph, for a pilot authorized to conduct IFR operations, at least one flight shall be flown over a civil airway, an approved off-airway route, or a portion of either of them."
+            },
+            {
+              "depth": 0,
+              "html": "(b) The pilot who conducts the check shall determine whether the pilot being checked satisfactorily performs the duties and responsibilities of a <mark class=\"hl-key\">pilot in command</mark> in operations under this part, and shall so certify in the pilot training record."
+            },
+            {
+              "depth": 0,
+              "html": "(c) Each certificate holder shall establish in the manual required by \u00a7 135.21 a procedure which will ensure that each pilot who has not flown over a route and into an airport within the preceding <mark class=\"hl-num\">90 days</mark> will, before beginning the flight, become familiar with all available information required for the safe operation of that flight."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part 119 \u2014 Management",
+      "id": "p119",
+      "short": "Part 119 Mgmt",
+      "sections": [
+        {
+          "sec": "119.71",
+          "title": "\u00a7 119.71 Management personnel: Qualifications for operations conducted under part 135 of this chapter.",
+          "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-119/section-119.71",
+          "paras": [
+            {
+              "depth": 0,
+              "html": "(a) To serve as <mark class=\"hl-key\">Director of Operations</mark> under \u00a7 119.69(a) for a certificate holder conducting any operations for which the <mark class=\"hl-key\">pilot in command</mark> is required to hold an <mark class=\"hl-key\">airline transport pilot certificate</mark> a person must hold an <mark class=\"hl-key\">airline transport pilot certificate</mark> and either:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Have at least <mark class=\"hl-num\">3 years</mark> supervisory or managerial experience within the last <mark class=\"hl-num\">6 years</mark> in a position that exercised operational control over any operations conducted under part 121 or part 135 of this chapter; or"
+            },
+            {
+              "depth": 1,
+              "html": "(2) In the case of a person becoming <mark class=\"hl-key\">Director of Operations</mark>\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) For the first time ever, have at least <mark class=\"hl-num\">3 years</mark> experience, within the past <mark class=\"hl-num\">6 years</mark>, as <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated under part 121 or part 135 of this chapter."
+            },
+            {
+              "depth": 2,
+              "html": "(ii) In the case of a person with previous experience as a <mark class=\"hl-key\">Director of Operations</mark>, have at least <mark class=\"hl-num\">3 years</mark> experience, as <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated under part 121 or part 135 of this chapter."
+            },
+            {
+              "depth": 0,
+              "html": "(b) To serve as <mark class=\"hl-key\">Director of Operations</mark> under \u00a7 119.69(a) for a certificate holder that only conducts operations for which the <mark class=\"hl-key\">pilot in command</mark> is required to hold a <mark class=\"hl-key\">commercial pilot certificate</mark>, a person must hold at least a <mark class=\"hl-key\">commercial pilot certificate</mark>. If an <mark class=\"hl-key\">instrument rating</mark> is required for any <mark class=\"hl-key\">pilot in command</mark> for that certificate holder, the <mark class=\"hl-key\">Director of Operations</mark> must also hold an <mark class=\"hl-key\">instrument rating</mark>. In addition, the <mark class=\"hl-key\">Director of Operations</mark> must either\u2014"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Have at least <mark class=\"hl-num\">3 years</mark> supervisory or managerial experience within the last <mark class=\"hl-num\">6 years</mark> in a position that exercised operational control over any operations conducted under part 121 or part 135 of this chapter; or"
+            },
+            {
+              "depth": 1,
+              "html": "(2) In the case of a person becoming <mark class=\"hl-key\">Director of Operations</mark>\u2014"
+            },
+            {
+              "depth": 0,
+              "html": "(i) For the first time ever, have at least <mark class=\"hl-num\">3 years</mark> experience, within the past <mark class=\"hl-num\">6 years</mark>, as <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated under part 121 or part 135 of this chapter."
+            },
+            {
+              "depth": 2,
+              "html": "(ii) In the case of a person with previous experience as a <mark class=\"hl-key\">Director of Operations</mark>, have at least <mark class=\"hl-num\">3 years</mark> experience as <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated under part 121 or part 135 of this chapter."
+            },
+            {
+              "depth": 0,
+              "html": "(c) To serve as <mark class=\"hl-key\">Chief Pilot</mark> under \u00a7 119.69(a) for a certificate holder conducting any operation for which the <mark class=\"hl-key\">pilot in command</mark> is required to hold an <mark class=\"hl-key\">airline transport pilot certificate</mark> a person must hold an <mark class=\"hl-key\">airline transport pilot certificate</mark> with appropriate ratings and be qualified to serve as <mark class=\"hl-key\">pilot in command</mark> in at least one aircraft used in the certificate holder's operation and:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) In the case of a person becoming a <mark class=\"hl-key\">Chief Pilot</mark> for the first time ever, have at least <mark class=\"hl-num\">3 years</mark> experience, within the past <mark class=\"hl-num\">6 years</mark>, as <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated under part 121 or part 135 of this chapter."
+            },
+            {
+              "depth": 1,
+              "html": "(2) In the case of a person with previous experience as a <mark class=\"hl-key\">Chief Pilot</mark>, have at least <mark class=\"hl-num\">3 years</mark> experience as <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated under part 121 or part 135 of this chapter."
+            },
+            {
+              "depth": 0,
+              "html": "(d) To serve as <mark class=\"hl-key\">Chief Pilot</mark> under \u00a7 119.69(a) for a certificate holder that only conducts operations for which the <mark class=\"hl-key\">pilot in command</mark> is required to hold a <mark class=\"hl-key\">commercial pilot certificate</mark>, a person must hold at least a <mark class=\"hl-key\">commercial pilot certificate</mark>. If an <mark class=\"hl-key\">instrument rating</mark> is required for any <mark class=\"hl-key\">pilot in command</mark> for that certificate holder, the <mark class=\"hl-key\">Chief Pilot</mark> must also hold an <mark class=\"hl-key\">instrument rating</mark>. The <mark class=\"hl-key\">Chief Pilot</mark> must be qualified to serve as <mark class=\"hl-key\">pilot in command</mark> in at least one aircraft used in the certificate holder's operation. In addition, the <mark class=\"hl-key\">Chief Pilot</mark> must:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) In the case of a person becoming a <mark class=\"hl-key\">Chief Pilot</mark> for the first time ever, have at least <mark class=\"hl-num\">3 years</mark> experience, within the past <mark class=\"hl-num\">6 years</mark>, as <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated under part 121 or part 135 of this chapter."
+            },
+            {
+              "depth": 1,
+              "html": "(2) In the case of a person with previous experience as a <mark class=\"hl-key\">Chief Pilot</mark>, have at least <mark class=\"hl-num\">3 years</mark> experience as <mark class=\"hl-key\">pilot in command</mark> of an aircraft operated under part 121 or part 135 of this chapter."
+            },
+            {
+              "depth": 0,
+              "html": "(e) To serve as <mark class=\"hl-key\">Director of Maintenance</mark> under \u00a7 119.69(a) a person must hold a mechanic certificate with airframe and powerplant ratings and either:"
+            },
+            {
+              "depth": 1,
+              "html": "(1) Have <mark class=\"hl-num\">3 years</mark> of experience within the past <mark class=\"hl-num\">6 years</mark> maintaining aircraft as a certificated mechanic, including, at the time of appointment as <mark class=\"hl-key\">Director of Maintenance</mark>, experience in maintaining the same category and class of aircraft as the certificate holder uses; or"
+            },
+            {
+              "depth": 1,
+              "html": "(2) Have <mark class=\"hl-num\">3 years</mark> of experience within the past <mark class=\"hl-num\">6 years</mark> repairing aircraft in a certificated airframe repair station, including <mark class=\"hl-num\">1 year</mark> in the capacity of approving aircraft for return to service."
+            },
+            {
+              "depth": 0,
+              "html": "(f) A certificate holder may request a deviation to employ a person who does not meet the appropriate airmen experience requirements, managerial experience requirements, or supervisory experience requirements of this section if the Manager of the Air Transportation Division, AFS-200, or the Manager of the Aircraft Maintenance Division, AFS-300, as appropriate, find that the person has comparable experience, and can effectively perform the functions associated with the position in accordance with the requirements of this chapter and the procedures outlined in the certificate holder's manual. The Administrator may, at any time, terminate any grant of deviation authority issued under this paragraph."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "validFrom": "2026-05-01",
+  "title14edition": "eCFR, current as of May 2026"
+}

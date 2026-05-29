@@ -1,0 +1,44 @@
+name: Check eCFR for regulation changes
+
+# Runs daily and updates data/status.json based on the live eCFR Versioner API.
+# The published site's reg-validity banner + Refresh button read this committed file.
+
+on:
+  schedule:
+    # 11:15 UTC daily (~early morning US). Cron is in UTC.
+    - cron: "15 11 * * *"
+  workflow_dispatch: {}   # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-ecfr
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run eCFR amendment check
+        run: python3 scripts/check_ecfr.py
+
+      - name: Commit status.json if it changed
+        run: |
+          if git diff --quiet -- data/status.json; then
+            echo "No change to data/status.json."
+            exit 0
+          fi
+          git config user.name "eCFR Checker Bot"
+          git config user.email "actions@github.com"
+          git add data/status.json
+          git commit -m "chore: update reg status from daily eCFR check"
+          git push
