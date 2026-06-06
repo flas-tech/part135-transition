@@ -1,8 +1,8 @@
 {
-  "lastChecked": "2026-06-05T00:00:00Z",
+  "lastChecked": "2026-06-06T00:00:00Z",
   "regsValidFrom": "2026-05-01",
   "edition": "Title 14 CFR, eCFR current as of May 2026",
   "changes": [],
-  "status": "current",
-  "note": "Automated daily check: no tracked section has been amended after the baseline (2026-05-01)."
+  "status": "warn",
+  "note": "Automated check could not fully reach eCFR. Showing last known baseline. Errors: part 61: HTTP Error 403: Forbidden; part 67: HTTP Error 403: Forbidden; part 119: HTTP Error 403: Forbidden; part 135: HTTP Error 403: Forbidden"
 }
