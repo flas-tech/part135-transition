@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gulfstream G280 — Limitations Study Page</title>
+<meta name="description" content="Interactive G280 limitations study sheet with altitude & speed graphics, mnemonics, and memorization patterns." />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=general-sans@500,600,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../" aria-label="Part 135 Transition home">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="29" height="29" rx="7" stroke="currentColor" stroke-width="2"/>
+        <path d="M16 6 L25 22 H7 Z" fill="currentColor" opacity="0.16"/>
+        <path d="M16 6 L25 22 H7 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <circle cx="16" cy="17.5" r="2.4" fill="currentColor"/>
+      </svg>
+      <span class="brand-text"><strong>Part&nbsp;135</strong> Transition · <span style="color:var(--primary)">G280</span></span>
+    </a>
+    <nav class="mainnav" aria-label="Primary">
+      <a class="navlink" href="../">← Part 135 Site</a>
+      <a class="navlink active" href="#top">G280 Study</a>
+    </nav>
+    <button class="iconbtn" id="themeToggle" aria-label="Switch theme">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="g280-hero" id="top">
+  <div class="wrap">
+    <p class="eyebrow">Gulfstream G280 · Limitations Study Sheet · Rev 0.4</p>
+    <h1>Every <span class="accent" style="color:var(--primary)">number</span> you need to know.</h1>
+    <p class="lede">A visual, mnemonic-heavy review of the G280 limitations. Use the altitude and speed graphics to anchor the numbers to a mental picture — then drill the tables. <strong>For training purposes only.</strong></p>
+    <p class="crumbs"><a href="../">← Back to Part 135 Transition site</a></p>
+  </div>
+</section>
+
+<div class="wrap">
+
+<!-- TOC -->
+<nav class="toc" aria-label="Section index">
+  <h3>Jump to a system</h3>
+  <div class="toc-links">
+    <a href="#big-picture">Big picture</a>
+    <a href="#altitudes">Altitudes</a>
+    <a href="#speeds">Speeds</a>
+    <a href="#weights">Weights</a>
+    <a href="#general">General</a>
+    <a href="#avionics">Avionics</a>
+    <a href="#electrical">Electrical</a>
+    <a href="#fuel">Fuel</a>
+    <a href="#apu">APU</a>
+    <a href="#hydraulics">Hydraulics</a>
+    <a href="#flight-controls">Flight Controls</a>
+    <a href="#gear">Landing Gear</a>
+    <a href="#ice">Ice Protection</a>
+    <a href="#oxygen">Oxygen / Water</a>
+    <a href="#press">Pressurization</a>
+    <a href="#powerplant">Powerplant</a>
+  </div>
+</nav>
+
+<!-- ================= BIG PICTURE ================= -->
+<section class="lim-section" id="big-picture">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+    The Big Picture
+    <span class="sec-tag">start here</span>
+  </h2>
+
+  <p>Five number families do most of the heavy lifting on the G280 limits oral. Memorize these scaffolds first; details hang off them.</p>
+
+  <div class="mnemo">
+    <div class="mnemo-title">Master mnemonic — “<span style="letter-spacing:.18em">A&nbsp;S&nbsp;W&nbsp;T&nbsp;F</span>”</div>
+    <strong>A</strong>ltitudes · <strong>S</strong>peeds · <strong>W</strong>eights · <strong>T</strong>emps · <strong>F</strong>luids.
+    Build a number tree in your head with these five trunks. Every limit on the test is a branch.
+  </div>
+
+  <div class="lim-grid cols-2" style="margin-top:1rem">
+    <div>
+      <h3 style="font-size:1rem;margin-bottom:.4rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">The 4 biggest numbers</h3>
+      <dl class="kv">
+        <dt>Max operating altitude</dt><dd>45,000 ft</dd>
+        <dt>Max airport elevation</dt><dd>10,000 (Issue 1) · 14,000 (Issue 2)</dd>
+        <dt>Max ramp weight</dt><dd>39,750 lbs</dd>
+        <dt>Max takeoff weight</dt><dd>39,600 lbs</dd>
+      </dl>
+    </div>
+    <div>
+      <h3 style="font-size:1rem;margin-bottom:.4rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">The 4 most-asked speeds</h3>
+      <dl class="kv">
+        <dt>VFE Flaps 10°</dt><dd>250 KIAS</dd>
+        <dt>VFE Flaps 20°</dt><dd>220 KIAS</dd>
+        <dt>VFE Flaps LAND</dt><dd>180 KIAS</dd>
+        <dt>VLO / VLE (normal)</dt><dd>195 KIAS</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ALTITUDE GRAPHIC ================= -->
+<section class="lim-section" id="altitudes">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M6 8l6-5 6 5M6 16l6 5 6-5"/></svg>
+    Altitude Stack
+    <span class="sec-tag">visual</span>
+  </h2>
+  <p>Every altitude limit on the airplane, in one tape. Notice the natural clusters at 10k (airport), 15–20k (APU bleed / gear / flaps), 25–26k (yaw damper / single-bleed WAI), and 35–45k (APU & cabin ceilings).</p>
+
+  <div class="figure">
+    <h3>G280 Altitude Tape — all limits</h3>
+    <p class="figcap">Hover/tap labels for context. Drawn to scale from MSL → 45,000 ft.</p>
+    <svg viewBox="0 0 1000 600" role="img" aria-label="G280 altitude limits visualized on a vertical tape from sea level to 45000 feet">
+      <!-- Layout: tape centered. y maps 0..45000 ft. 45k at y=40, 0k at y=560. 1000 ft = 520/45 ≈ 11.555 px. -->
+      <!-- Tape -->
+      <rect x="450" y="40" width="100" height="520" rx="8" class="svg-fill-card" stroke="currentColor" stroke-opacity=".2"/>
+
+      <!-- Gridlines every 5000 ft -->
+      <g class="svg-grid" stroke-opacity=".4" stroke-dasharray="2 4">
+        <line x1="160" x2="840" y1="502.2" y2="502.2"/><!-- 5k -->
+        <line x1="160" x2="840" y1="444.4" y2="444.4"/><!-- 10k -->
+        <line x1="160" x2="840" y1="386.7" y2="386.7"/><!-- 15k -->
+        <line x1="160" x2="840" y1="328.9" y2="328.9"/><!-- 20k -->
+        <line x1="160" x2="840" y1="271.1" y2="271.1"/><!-- 25k -->
+        <line x1="160" x2="840" y1="213.3" y2="213.3"/><!-- 30k -->
+        <line x1="160" x2="840" y1="155.6" y2="155.6"/><!-- 35k -->
+        <line x1="160" x2="840" y1="97.8"  y2="97.8"/><!-- 40k -->
+        <line x1="160" x2="840" y1="40"    y2="40"/><!-- 45k -->
+      </g>
+      <g class="svg-muted" font-size="11" text-anchor="end">
+        <text x="155" y="564">SL</text>
+        <text x="155" y="506">5k</text>
+        <text x="155" y="448">10k</text>
+        <text x="155" y="391">15k</text>
+        <text x="155" y="333">20k</text>
+        <text x="155" y="275">25k</text>
+        <text x="155" y="218">30k</text>
+        <text x="155" y="160">35k</text>
+        <text x="155" y="102">40k</text>
+        <text x="155" y="45">45k</text>
+      </g>
+
+      <!-- Helpers: each limit = a tick line across the tape with a pill label on one side -->
+      <!-- LEFT-side labels (callouts), RIGHT-side labels (limits proper) -->
+
+      <!-- 45,000 — Max operating (top) -->
+      <line x1="450" x2="840" y1="40" y2="40" stroke="var(--rust)" stroke-width="2"/>
+      <rect x="560" y="22" width="260" height="22" rx="4" fill="var(--rust)"/>
+      <text x="690" y="38" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">MAX OPERATING — 45,000 ft</text>
+      <text x="440" y="38" font-size="11" fill="var(--muted)" text-anchor="end" font-family="General Sans">O₂ masks not approved &gt; 40k cabin alt</text>
+
+      <!-- 40,000 — APU op / O2 ceiling -->
+      <line x1="450" x2="840" y1="97.8" y2="97.8" stroke="var(--primary)" stroke-width="1.8"/>
+      <rect x="560" y="79" width="260" height="22" rx="4" fill="var(--primary)"/>
+      <text x="690" y="95" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">APU OPERATION · O₂ CEILING — 40,000</text>
+
+      <!-- 39,000 EMP -->
+      <line x1="450" x2="840" y1="109.3" y2="109.3" stroke="var(--gold)" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <text x="440" y="113" font-size="11" fill="var(--gold)" text-anchor="end" font-weight="700" font-family="General Sans">EMP &gt; 39k = 10 min limit</text>
+
+      <!-- 35,000 APU start -->
+      <line x1="450" x2="840" y1="155.6" y2="155.6" stroke="var(--primary)" stroke-width="1.8"/>
+      <rect x="560" y="137" width="260" height="22" rx="4" fill="var(--primary)" opacity=".85"/>
+      <text x="690" y="153" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">APU START — 35,000</text>
+
+      <!-- 26,000 WAI single bleed prohibited -->
+      <line x1="450" x2="840" y1="259.6" y2="259.6" stroke="var(--rust)" stroke-width="1.5"/>
+      <rect x="560" y="242" width="260" height="20" rx="4" fill="var(--rust)" opacity=".85"/>
+      <text x="690" y="256" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">WAI single-bleed &gt; 26k — PROHIBITED</text>
+
+      <!-- 25,000 yaw damper required -->
+      <line x1="450" x2="840" y1="271.1" y2="271.1" stroke="var(--rust)" stroke-width="1.5"/>
+      <text x="440" y="275" font-size="11" fill="var(--rust)" text-anchor="end" font-weight="700" font-family="General Sans">Yaw damper required &gt; 25,000</text>
+
+      <!-- 20,000 APU bleed / gear / flaps -->
+      <line x1="450" x2="840" y1="328.9" y2="328.9" stroke="var(--primary)" stroke-width="1.8"/>
+      <rect x="560" y="311" width="260" height="22" rx="4" fill="var(--primary)" opacity=".75"/>
+      <text x="690" y="327" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">APU BLEED · GEAR · FLAPS — 20,000</text>
+
+      <!-- 15,000 APU assist -->
+      <line x1="450" x2="840" y1="386.7" y2="386.7" stroke="var(--primary)" stroke-width="1.8"/>
+      <rect x="560" y="368" width="260" height="22" rx="4" fill="var(--primary)" opacity=".65"/>
+      <text x="690" y="384" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">APU-ASSIST ENG START — 15,000</text>
+
+      <!-- 14,000 airport elev Issue 2 -->
+      <line x1="450" x2="840" y1="398.2" y2="398.2" stroke="var(--blue)" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <text x="440" y="402" font-size="11" fill="var(--blue)" text-anchor="end" font-weight="700" font-family="General Sans">14,000 — Airport elev (Issue 2)</text>
+
+      <!-- 10,000 airport elev Issue 1 -->
+      <line x1="450" x2="840" y1="444.4" y2="444.4" stroke="var(--blue)" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <text x="440" y="448" font-size="11" fill="var(--blue)" text-anchor="end" font-weight="700" font-family="General Sans">10,000 — Airport elev (Issue 1)</text>
+
+      <!-- SL baseline -->
+      <line x1="450" x2="550" y1="560" y2="560" stroke="currentColor" stroke-width="1.5"/>
+      <text x="445" y="564" font-size="11" text-anchor="end" class="svg-muted">SL</text>
+    </svg>
+  </div>
+
+  <div class="lim-grid cols-2">
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — APU altitude ladder</div>
+      <code>15 → 20 → 35 → 40</code><br>
+      <b>15k</b> assist start · <b>20k</b> bleed · <b>35k</b> start · <b>40k</b> run.<br>
+      Gaps: <strong>+5, +15, +5</strong>. Think “quintuple step, big gap in the middle.”
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — the &ldquo;20-20-20&rdquo; rule</div>
+      Three different limits all live at <code>20,000 ft</code>: <b>APU bleed</b>, <b>gear extension</b>, <b>flap extension</b>. If you forget any of them, default to 20k and you’ll usually be right.
+    </div>
+  </div>
+</section>
+
+<!-- ================= SPEED GRAPHIC ================= -->
+<section class="lim-section" id="speeds">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 12l5-3M12 8v4"/></svg>
+    Speed Tape
+    <span class="sec-tag">visual</span>
+  </h2>
+  <p>All KIAS limits on a single horizontal tape so you can see how the flap & gear regimes overlap. Mach limits (0.77 MI) live on a separate band.</p>
+
+  <div class="figure">
+    <h3>G280 Speed Tape — all KIAS limits</h3>
+    <p class="figcap">From 0 to 280 KIAS. 195 is the big shared number for gear; 250-220-180 is the flap ladder.</p>
+    <svg viewBox="0 0 1000 460" role="img" aria-label="G280 speed limits on a horizontal tape">
+      <!-- Scale: 0..280 KIAS over x = 90..930 (840 px) → 1 kt = 3.0 px -->
+      <!-- Tape baseline at y=250 -->
+      <rect x="90" y="244" width="840" height="18" rx="3" class="svg-fill-card" stroke="currentColor" stroke-opacity=".2"/>
+
+      <!-- Tick marks every 20 kt from 0..280 -->
+      <g class="svg-muted" font-size="10" font-family="General Sans">
+        <g stroke="currentColor" stroke-opacity=".35">
+          <line x1="90" x2="90" y1="262" y2="272"/>
+          <line x1="150" x2="150" y1="262" y2="272"/>
+          <line x1="210" x2="210" y1="262" y2="272"/>
+          <line x1="270" x2="270" y1="262" y2="272"/>
+          <line x1="330" x2="330" y1="262" y2="272"/>
+          <line x1="390" x2="390" y1="262" y2="272"/>
+          <line x1="450" x2="450" y1="262" y2="272"/>
+          <line x1="510" x2="510" y1="262" y2="272"/>
+          <line x1="570" x2="570" y1="262" y2="272"/>
+          <line x1="630" x2="630" y1="262" y2="272"/>
+          <line x1="690" x2="690" y1="262" y2="272"/>
+          <line x1="750" x2="750" y1="262" y2="272"/>
+          <line x1="810" x2="810" y1="262" y2="272"/>
+          <line x1="870" x2="870" y1="262" y2="272"/>
+          <line x1="930" x2="930" y1="262" y2="272"/>
+        </g>
+        <text x="90" y="288" text-anchor="middle">0</text>
+        <text x="150" y="288" text-anchor="middle">20</text>
+        <text x="210" y="288" text-anchor="middle">40</text>
+        <text x="270" y="288" text-anchor="middle">60</text>
+        <text x="330" y="288" text-anchor="middle">80</text>
+        <text x="390" y="288" text-anchor="middle">100</text>
+        <text x="450" y="288" text-anchor="middle">120</text>
+        <text x="510" y="288" text-anchor="middle">140</text>
+        <text x="570" y="288" text-anchor="middle">160</text>
+        <text x="630" y="288" text-anchor="middle">180</text>
+        <text x="690" y="288" text-anchor="middle">200</text>
+        <text x="750" y="288" text-anchor="middle">220</text>
+        <text x="810" y="288" text-anchor="middle">240</text>
+        <text x="870" y="288" text-anchor="middle">260</text>
+        <text x="930" y="288" text-anchor="middle">280</text>
+        <text x="510" y="308" text-anchor="middle" font-size="10">KIAS</text>
+      </g>
+
+      <!-- Helper: each limit = vertical tick line + leader to a stacked pill so they never overlap.
+           x(kt) = 90 + kt*3. Pills ABOVE the tape (top stack) or BELOW (bottom stack). -->
+
+      <!-- ============ TOP STACK (above tape) ============ -->
+      <!-- Row 1 (highest, y=40 pill): 40 TR, 175 emerg, 195 VLO/VLE/Main, 250 VFE10/YawDmp -->
+      <!-- 40 KIAS TR cancel -> x=210 -->
+      <line x1="210" x2="210" y1="244" y2="60" stroke="var(--gold)" stroke-width="1.5" stroke-dasharray="2 3"/>
+      <rect x="150" y="40" width="140" height="22" rx="4" fill="var(--gold)"/>
+      <text x="220" y="56" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">40 — TR to reverse idle</text>
+
+      <!-- 175 emerg gear ext -> x=615 -->
+      <line x1="615" x2="615" y1="244" y2="110" stroke="var(--gold)" stroke-width="1.5"/>
+      <rect x="545" y="90" width="140" height="22" rx="4" fill="var(--gold)"/>
+      <text x="615" y="106" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">175 — Emerg gear ext</text>
+
+      <!-- 185 min hold (icing) -> x=645 -->
+      <line x1="645" x2="645" y1="244" y2="170" stroke="var(--blue)" stroke-width="1.5"/>
+      <rect x="690" y="150" width="165" height="22" rx="4" fill="var(--blue)"/>
+      <text x="772" y="166" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">185 — Min hold (icing)</text>
+
+      <!-- 195 VLO/VLE/Main tire -> x=675 -->
+      <line x1="675" x2="675" y1="244" y2="60" stroke="var(--primary)" stroke-width="2"/>
+      <rect x="655" y="40" width="210" height="22" rx="4" fill="var(--primary)"/>
+      <text x="760" y="56" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">195 — VLO · VLE · Main tire</text>
+
+      <!-- ============ BOTTOM STACK (below tape) ============ -->
+      <!-- 180 VFE LAND -> x=630 -->
+      <line x1="630" x2="630" y1="262" y2="330" stroke="var(--primary)" stroke-width="2"/>
+      <rect x="100" y="330" width="140" height="22" rx="4" fill="var(--primary)"/>
+      <text x="170" y="346" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">180 — VFE LAND</text>
+      <!-- leader line from 630 down to pill -->
+      <line x1="630" x2="240" y1="330" y2="341" stroke="var(--primary)" stroke-width="1" stroke-dasharray="2 3"/>
+
+      <!-- 182 nose tire -> x=636 -->
+      <line x1="636" x2="636" y1="262" y2="370" stroke="var(--rust)" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <rect x="260" y="370" width="140" height="22" rx="4" fill="var(--rust)"/>
+      <text x="330" y="386" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">182 — Nose tire max</text>
+      <line x1="636" x2="400" y1="370" y2="381" stroke="var(--rust)" stroke-width="1" stroke-dasharray="2 3"/>
+
+      <!-- 220 VFE 20° -> x=750 -->
+      <line x1="750" x2="750" y1="262" y2="330" stroke="var(--primary)" stroke-width="2"/>
+      <rect x="680" y="330" width="140" height="22" rx="4" fill="var(--primary)" opacity=".85"/>
+      <text x="750" y="346" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">220 — VFE 20°</text>
+
+      <!-- 250 VFE 10 / Yaw Dmp inop <FL250 -> x=840 -->
+      <line x1="840" x2="840" y1="262" y2="370" stroke="var(--primary)" stroke-width="2"/>
+      <rect x="690" y="370" width="230" height="22" rx="4" fill="var(--primary)" opacity=".75"/>
+      <text x="805" y="386" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" font-family="General Sans">250 — VFE 10° / YawDmp inop &lt; FL250</text>
+
+      <!-- Mach band footer -->
+      <g>
+        <line x1="90" x2="930" y1="420" y2="420" stroke="currentColor" stroke-opacity=".2"/>
+        <text x="90" y="442" font-size="12" fill="var(--muted)" font-family="General Sans">Mach band: <tspan font-weight="700" fill="var(--primary)">0.77 MI</tspan> = Alt-Stab Trim armed &amp; Mach Trim inop — both equal (the twin 0.77)</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="lim-grid cols-2">
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — flap VFE ladder</div>
+      <code>250 / 220 / 180</code> for flaps <b>10° / 20° / LAND</b>.<br>
+      Drop <strong>30</strong> then <strong>40</strong>. (Bigger flap deflection → bigger drop.)
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — the “195 family”</div>
+      Three gear numbers all land on <code>195 KIAS</code>: <b>VLO</b>, <b>VLE</b>, and <b>main-tire</b> max ground speed. Nose tire is the odd one out at <b>182</b>. Emergency extension is the conservative <b>175</b>, then you can accelerate to 195 once down-and-locked.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — “SAM at 77”</div>
+      <strong>S</strong>tab (alternate) trim & <strong>M</strong>ach trim inop both cap you at <code>0.77 MI</code>. Two limits, one number.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — “25, the line in the sky”</div>
+      Above <code>FL250</code>, yaw damper must be on. Below FL250 with yaw damper off, you’re limited to <b>250 KIAS</b>. Easy pair to remember: <em>25 and 250</em>.
+    </div>
+  </div>
+</section>
+
+<!-- ================= WEIGHTS GRAPHIC ================= -->
+<section class="lim-section" id="weights">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l2 6a8 8 0 1 1-16 0z"/><path d="M12 3v6"/></svg>
+    Weights, in order
+    <span class="sec-tag">visual</span>
+  </h2>
+  <p>The four weight limits form a tidy ladder. The taxi-out burn is precisely the <b>150 lb</b> gap between Ramp and Takeoff.</p>
+
+  <div class="figure">
+    <h3>Weight ladder</h3>
+    <p class="figcap">Stack from lightest (ZFW) to heaviest (Ramp). Same color = same axis (it’s the same airplane).</p>
+    <svg viewBox="0 0 900 280" role="img" aria-label="G280 weight ladder showing ZFW Landing Takeoff Ramp">
+      <!-- background lines -->
+      <g class="svg-grid" stroke-opacity=".4">
+        <line x1="60" x2="840" y1="240" y2="240"/>
+      </g>
+      <!-- bars. scale: 28200 → 39750. Use x range 100..820 width 720. -->
+      <!-- bar width proportional to weight: ZFW 28200 → 28200/40000*720 = 507 -->
+      <g font-family="General Sans">
+        <!-- Ramp 39750 → 715 -->
+        <rect x="100" y="40" width="715" height="32" rx="4" fill="var(--primary)" opacity=".95"/>
+        <text x="110" y="61" fill="#fff" font-weight="700" font-size="13">Max Ramp</text>
+        <text x="810" y="61" fill="#fff" font-weight="700" font-size="13" text-anchor="end">39,750 lbs</text>
+
+        <!-- TO 39600 → 712.8 -->
+        <rect x="100" y="84" width="712.8" height="32" rx="4" fill="var(--primary)" opacity=".82"/>
+        <text x="110" y="105" fill="#fff" font-weight="700" font-size="13">Max Takeoff</text>
+        <text x="808" y="105" fill="#fff" font-weight="700" font-size="13" text-anchor="end">39,600 lbs</text>
+
+        <!-- Landing 32700 → 588.6 -->
+        <rect x="100" y="128" width="588.6" height="32" rx="4" fill="var(--primary)" opacity=".62"/>
+        <text x="110" y="149" fill="#fff" font-weight="700" font-size="13">Max Landing</text>
+        <text x="684" y="149" fill="#fff" font-weight="700" font-size="13" text-anchor="end">32,700 lbs</text>
+
+        <!-- ZFW 28200 → 507.6 -->
+        <rect x="100" y="172" width="507.6" height="32" rx="4" fill="var(--primary)" opacity=".42"/>
+        <text x="110" y="193" fill="#fff" font-weight="700" font-size="13">Max Zero Fuel</text>
+        <text x="603" y="193" fill="var(--text)" font-weight="700" font-size="13" text-anchor="end">28,200 lbs</text>
+      </g>
+
+      <!-- 150 lb delta callout -->
+      <g>
+        <line x1="815" x2="850" y1="56" y2="100" stroke="var(--rust)" stroke-width="1.5"/>
+        <rect x="826" y="68" width="64" height="22" rx="4" fill="var(--rust)"/>
+        <text x="858" y="83" fill="#fff" font-weight="700" font-size="11" text-anchor="middle" font-family="General Sans">Δ 150</text>
+      </g>
+
+      <!-- baseline scale -->
+      <g class="svg-muted" font-size="10">
+        <text x="100" y="258" text-anchor="start">0 lbs</text>
+        <text x="820" y="258" text-anchor="end">40,000 lbs</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="lim-grid cols-2">
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — “Zoo Lands Take Ramp”</div>
+      <code>Z · L · T · R</code> in increasing order:<br>
+      <strong>Z</strong>FW <b>28,200</b> → <strong>L</strong>anding <b>32,700</b> → <strong>T</strong>akeoff <b>39,600</b> → <strong>R</strong>amp <b>39,750</b>.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — the “150 taxi burn”</div>
+      Ramp − Takeoff = <code>39,750 − 39,600 = 150 lbs</code>. That’s your <b>allowable taxi fuel burn</b>. If you remember Ramp = TO + 150, you only have to memorize one of them.
+    </div>
+  </div>
+
+  <table class="lim-table" style="margin-top:1rem">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>Max ramp weight</td><td class="num">39,750 <span class="unit">lbs</span></td></tr>
+    <tr><td>Max takeoff weight</td><td class="num">39,600 <span class="unit">lbs</span></td></tr>
+    <tr><td>Max landing weight</td><td class="num">32,700 <span class="unit">lbs</span></td></tr>
+    <tr><td>Max zero-fuel weight</td><td class="num">28,200 <span class="unit">lbs</span></td></tr>
+    <tr><td>Max baggage floor load (total)</td><td class="num">1,980 <span class="unit">lbs</span></td></tr>
+    <tr><td>Max baggage floor loading</td><td class="num">120 <span class="unit">lbs/ft²</span></td></tr>
+  </table>
+</section>
+
+<!-- ================= GENERAL ================= -->
+<section class="lim-section" id="general">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M12 3v18"/></svg>
+    General
+  </h2>
+  <table class="lim-table">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>Max slope for takeoff &amp; landing</td><td class="num">±2 <span class="unit">%</span></td></tr>
+    <tr><td>Minimum radius for a 180° turn</td><td class="num">49.5 <span class="unit">ft</span></td></tr>
+    <tr><td>Max tailwind component (T/O &amp; landing)</td><td class="num">10 <span class="unit">kts</span></td></tr>
+    <tr><td>Max airport elevation — Issue 1</td><td class="num">10,000 <span class="unit">ft</span></td></tr>
+    <tr><td>Max airport elevation — Issue 2</td><td class="num">14,000 <span class="unit">ft</span></td></tr>
+    <tr><td>Max operating altitude</td><td class="num">45,000 <span class="unit">ft</span></td></tr>
+    <tr><td>Minimum holding speed in icing</td><td class="num">185 <span class="unit">KIAS</span></td></tr>
+  </table>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — “the 10s” of General</div>
+    <code>±2% · 10 kt · 10,000 ft</code> — slope, tailwind, and Issue 1 airport ceiling all share clean round numbers. Issue 2 is the “upgrade” to <b>14,000</b>.
+  </div>
+</section>
+
+<!-- ================= AVIONICS ================= -->
+<section class="lim-section" id="avionics">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M7 14h4"/></svg>
+    Avionics
+  </h2>
+  <p><b>TAWS</b> shall be selected <code>OFF within 15 nm</code> of landing airport when any of:</p>
+  <ul style="margin:.5rem 0 .8rem 1.4rem">
+    <li>No published instrument approach procedure</li>
+    <li>Longest runway &lt; 3,500 ft</li>
+    <li>Airport not in the database</li>
+    <li>QFE altimeter setting used for approach/landing (subsequent takeoff) without geometric altitude</li>
+  </ul>
+  <p><b>APPR mode for LOC approaches</b> — select only when within <code>60°</code> of approach course.</p>
+
+  <div class="mnemo">
+    <div class="mnemo-title">Mnemonic — TAWS OFF, “P.D.Q. S” (Pretty Damn Quick — Short)</div>
+    <strong>P</strong>ublished approach? none → off. &nbsp;<strong>D</strong>atabase? missing → off. &nbsp;<strong>Q</strong>FE used → off. &nbsp;<strong>S</strong>hort (&lt;3,500 ft) → off.<br>
+    All four checks happen inside <code>15 nm</code>. APPR LOC is <code>60°</code> — &ldquo;<b>15 / 60</b>&rdquo; together.
+  </div>
+</section>
+
+<!-- ================= ELECTRICAL ================= -->
+<section class="lim-section" id="electrical">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L4 14h7l-2 8 9-12h-7z"/></svg>
+    Electrical
+  </h2>
+  <table class="lim-table">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>Engine &amp; APU generator (max continuous)</td><td class="num">100 <span class="unit">%</span></td></tr>
+    <tr><td>Battery charge current (T/O) — APU GEN avail</td><td class="num">20 <span class="unit">amps</span></td></tr>
+    <tr><td>Battery charge current (T/O) — APU GEN unavail</td><td class="num">8 <span class="unit">amps</span></td></tr>
+    <tr><td>Cabin outlets — galley/lavatory</td><td class="num">15 <span class="unit">amp ea.</span></td></tr>
+    <tr><td>Cabin outlets — all others</td><td class="num">3 <span class="unit">amp ea.</span></td></tr>
+    <tr><td>Total cabin amp draw (never exceed)</td><td class="num">17.5 <span class="unit">amps</span></td></tr>
+  </table>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — “20 vs 8 = APU helps”</div>
+    With APU GEN online you’re allowed <b>2½× more</b> battery charge current at takeoff (<code>20</code> vs <code>8</code>). If asked “why?” the answer is just <em>“more available power.”</em>
+  </div>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — “15 / 3 / 17.5”</div>
+    Galley &amp; lav outlets are <code>15A</code>, everything else is <code>3A</code>, and the total cabin draw caps at <code>17.5A</code>. Note the cap is barely above one galley outlet — that’s why it’s a hard ceiling.
+  </div>
+</section>
+
+<!-- ================= FUEL ================= -->
+<section class="lim-section" id="fuel">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3h9v18H5z"/><path d="M14 7h3l2 3v8a2 2 0 0 1-2 2"/></svg>
+    Fuel
+  </h2>
+  <table class="lim-table">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>Aircraft Max Zero Fuel Weight</td><td class="num">28,200 <span class="unit">lbs</span></td></tr>
+    <tr><td>Total usable fuel — pressure refueling</td><td class="num">14,620 <span class="unit">lbs</span></td></tr>
+    <tr><td>Total usable fuel — overwing refueling</td><td class="num">9,760 <span class="unit">lbs</span></td></tr>
+    <tr><td>Fuel imbalance — takeoff</td><td class="num">450 <span class="unit">lbs</span></td></tr>
+    <tr><td>Fuel imbalance — inflight / approach / landing</td><td class="num">900 <span class="unit">lbs</span></td></tr>
+    <tr><td>Primary fuel types</td><td class="num">Jet A · A-1 · JP-8 · JP-5</td></tr>
+    <tr><td>Jet A tank temp range</td><td class="num">−38°C&nbsp;…&nbsp;+57°C</td></tr>
+    <tr><td>Jet A-1 / JP-8 tank temp range</td><td class="num">−46°C&nbsp;…&nbsp;+57°C</td></tr>
+    <tr><td>Max ground refuel pressure</td><td class="num">50 <span class="unit">PSI</span></td></tr>
+    <tr><td>Min fuel temp at fuel filter</td><td class="num">3 <span class="unit">°C</span></td></tr>
+  </table>
+  <div class="mnemo">
+    <div class="mnemo-title">Mnemonic — “450 doubles to 900”</div>
+    Imbalance limit doubles from <b>ground (450)</b> to <b>airborne (900)</b>. <em>“Twice the limit once you’re in the sky.”</em>
+  </div>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — “Jet A is the cold-weak cousin”</div>
+    Cold limits: <b>Jet A −38°C</b>, <b>Jet A-1 / JP-8 −46°C</b>. Top end (<code>57°C</code>) is the same for all. JP-5/A-1 wins by <b>8°C</b> on the cold side — useful trivia for high-altitude/cold-soak ops.
+  </div>
+</section>
+
+<!-- ================= APU ================= -->
+<section class="lim-section" id="apu">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12"/></svg>
+    APU
+  </h2>
+
+  <div class="lim-grid cols-2">
+    <div>
+      <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.4rem">Altitudes</h3>
+      <table class="lim-table">
+        <tr><td>APU-assist engine start</td><td class="num">15,000 <span class="unit">ft</span></td></tr>
+        <tr><td>APU bleed air use</td><td class="num">20,000 <span class="unit">ft</span></td></tr>
+        <tr><td>APU start</td><td class="num">35,000 <span class="unit">ft</span></td></tr>
+        <tr><td>APU operation</td><td class="num">40,000 <span class="unit">ft</span></td></tr>
+      </table>
+    </div>
+    <div>
+      <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.4rem">Speeds / temps / volts</h3>
+      <table class="lim-table">
+        <tr><td>APU generator (ground &amp; flight)</td><td class="num">100 <span class="unit">%</span></td></tr>
+        <tr><td>Max rotor speed</td><td class="num">108 <span class="unit">%</span></td></tr>
+        <tr><td>Batt voltage for APU start</td><td class="num">22 <span class="unit">V min</span></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:1rem 0 .4rem">Max permissible EGT</h3>
+  <table class="lim-table">
+    <tr><td>During start, &lt;50% N2</td><td class="num">974 <span class="unit">°C</span></td></tr>
+    <tr><td>During start, 50–90% N2</td><td class="num">974 → 718 <span class="unit">°C (linear)</span></td></tr>
+    <tr><td>Running</td><td class="num">718 <span class="unit">°C</span></td></tr>
+    <tr><td>Bleed air in use</td><td class="num">666 <span class="unit">°C</span></td></tr>
+  </table>
+
+  <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:1rem 0 .4rem">Operational rules</h3>
+  <ul style="margin-left:1.4rem">
+    <li>Do not operate APU if <b>#2 fire extinguisher</b> has been activated.</li>
+    <li>Approved for <b>unattended operation</b>.</li>
+    <li>Allow <b>2 min cooldown</b> between APU starts or between shutdown and next start.</li>
+    <li>After <b>3 consecutive start attempts</b>: <b>30 min cool down</b>.</li>
+    <li>Operate APU only if <b>right standby fuel pump</b> is operative <em>or</em> right engine is operative.</li>
+    <li>During ground aircraft de-icing: <b>APU OFF, door CLOSED</b>.</li>
+  </ul>
+
+  <div class="lim-grid cols-2">
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — APU altitudes “15-20-35-40”</div>
+      <code>15</code> assist start, <code>20</code> bleed, <code>35</code> start, <code>40</code> run. Two pairs: small at the bottom, big at the top.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — EGT “974 / 718 / 666”</div>
+      <strong>974</strong> Start (under 50%) · <strong>718</strong> Running · <strong>666</strong> Bleeding.<br>
+      <em>“The hotter the moment, the higher the limit. Steady & sharing air = cooler limits.”</em>
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — “2 / 3 / 30”</div>
+      <b>2-min</b> cooldown between starts · <b>3</b> consecutive start attempts max · then <b>30-min</b> cool. (Same numbers also show up in engine ground rules.)
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — “22 V to spin, 108% never exceed”</div>
+      Two stand-alone numbers: <code>22 V</code> battery minimum to start, <code>108%</code> rotor never-exceed. Both are bookend limits.
+    </div>
+  </div>
+</section>
+
+<!-- ================= HYDRAULICS ================= -->
+<section class="lim-section" id="hydraulics">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c4 5 7 8 7 12a7 7 0 0 1-14 0c0-4 3-7 7-12z"/></svg>
+    Hydraulics
+  </h2>
+  <table class="lim-table">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>Preferred fluid</td><td class="num">SKYDROL LD IV</td></tr>
+    <tr><td>Brake accumulator pre-charge (@ 70°F)</td><td class="num">700 ±30 <span class="unit">psi</span></td></tr>
+    <tr><td>Brake accum temp correction</td><td class="num">±13 <span class="unit">psi / 10°F</span></td></tr>
+    <tr><td>Emerg gear bottle pre-charge (@ 70°F)</td><td class="num">2,700 – 3,000 <span class="unit">psi</span></td></tr>
+    <tr><td>Emerg gear bottle temp correction</td><td class="num">±50 <span class="unit">psi / 10°F</span></td></tr>
+    <tr><td>Normal operating pressure</td><td class="num">2,700 – 3,250 <span class="unit">psi</span> (3,500 max)</td></tr>
+    <tr><td>Max hydraulic temperature</td><td class="num">95 <span class="unit">°C</span></td></tr>
+    <tr><td>EMP operation above 39,000 ft</td><td class="num">10 <span class="unit">min limit</span></td></tr>
+  </table>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — three pressure scales</div>
+    <code>700</code> for brakes · <code>2,700</code> for emerg gear / normal ops floor · <code>3,500</code> for absolute max. Round numbers, all multiples of 100 — easy to anchor.
+  </div>
+  <div class="mnemo">
+    <div class="mnemo-title">Mnemonic — “EMP wants air conditioning”</div>
+    Above <code>39,000 ft</code> the EMP gets only <b>10 min</b>. It’s the same altitude band where most thin-air thermal limits start to bite.
+  </div>
+</section>
+
+<!-- ================= FLIGHT CONTROLS ================= -->
+<section class="lim-section" id="flight-controls">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12l20 8-8-8 8-8z"/></svg>
+    Flight Controls
+  </h2>
+  <table class="lim-table">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>VFE — Flaps 10°</td><td class="num">250 <span class="unit">KIAS</span></td></tr>
+    <tr><td>VFE — Flaps 20°</td><td class="num">220 <span class="unit">KIAS</span></td></tr>
+    <tr><td>VFE — Flaps LAND</td><td class="num">180 <span class="unit">KIAS</span></td></tr>
+    <tr><td>Alt Stab Trim armed — max speed</td><td class="num">0.77 <span class="unit">MI</span></td></tr>
+    <tr><td>Mach Trim inoperative — max speed</td><td class="num">0.77 <span class="unit">MI</span></td></tr>
+    <tr><td>Yaw damper inop — &lt;FL250</td><td class="num">250 <span class="unit">KIAS</span></td></tr>
+    <tr><td>Yaw damper off above FL250</td><td class="num">PROHIBITED</td></tr>
+    <tr><td>Max altitude for flap extension</td><td class="num">20,000 <span class="unit">ft MSL</span></td></tr>
+    <tr><td>Flaps in icing</td><td>T/O, approach, landing only</td></tr>
+    <tr><td>Holding in icing</td><td>0° flaps only</td></tr>
+  </table>
+</section>
+
+<!-- ================= LANDING GEAR ================= -->
+<section class="lim-section" id="gear">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M3 12h18l-2-4H5z"/></svg>
+    Landing Gear, Brakes &amp; Towing
+  </h2>
+
+  <table class="lim-table">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>Max altitude — gear extended / extending</td><td class="num">20,000 <span class="unit">ft MSL</span></td></tr>
+    <tr><td>VLO (normal extend/retract)</td><td class="num">195 <span class="unit">KIAS</span></td></tr>
+    <tr><td>VLE (gear extended)</td><td class="num">195 <span class="unit">KIAS</span></td></tr>
+    <tr><td>Emergency gear extension speed</td><td class="num">175 <span class="unit">KIAS</span></td></tr>
+    <tr><td>After down &amp; locked (emerg)</td><td class="num">195 <span class="unit">KIAS</span></td></tr>
+    <tr><td>Main tire max ground speed</td><td class="num">195 <span class="unit">kt</span></td></tr>
+    <tr><td>Nose tire max ground speed</td><td class="num">182 <span class="unit">kt</span></td></tr>
+    <tr><td>Brake overheat CAS</td><td class="num">450 <span class="unit">°C</span></td></tr>
+    <tr><td>Warm brakes target (taxi)</td><td class="num">≈ 100 <span class="unit">°C</span></td></tr>
+    <tr><td>Min brake temp for contaminated runway T/O</td><td class="num">10 <span class="unit">°C</span></td></tr>
+  </table>
+
+  <div class="figure">
+    <h3>Towing angles — 80 / 84 / 94 / 100</h3>
+    <p class="figcap">A single arc with four trip points: <b>normal range</b>, <b>horn</b>, <b>CAS</b>, and <b>damage</b>.</p>
+    <svg viewBox="0 0 900 540" role="img" aria-label="Towing angles from center: 80 normal, 84 horn, 94 CAS, 100 damage">
+      <!-- Center the nose at (450, 460). Aircraft nose points UP. Radius R for the arrows. -->
+      <!-- Angles are measured from the aircraft centerline (straight up). Positive = right of nose.
+           Convert: x = cx + R * sin(θ), y = cy - R * cos(θ). At θ=0 the ray points straight up. -->
+      <defs>
+        <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/>
+        </marker>
+      </defs>
+
+      <!-- Guide semicircle from -110° to +110° -->
+      <!-- left endpoint at θ=-110: x=450+340*sin(-110°)=450-319.5=130.5, y=460-340*cos(-110°)=460-340*(-0.342)=460+116.3=576.3
+           right endpoint at θ=+110: x=450+319.5=769.5, y=576.3 -->
+      <path d="M 130.5 576.3 A 340 340 0 0 1 769.5 576.3" fill="none" stroke="var(--divider)" stroke-width="2"/>
+
+      <!-- Aircraft centerline -->
+      <line x1="450" y1="460" x2="450" y2="100" stroke="var(--text)" stroke-width="2" stroke-dasharray="5 4"/>
+      <text x="450" y="90" text-anchor="middle" font-size="11" class="svg-muted" font-family="General Sans">NOSE / CENTERLINE</text>
+
+      <!-- Filled normal zone wedge (±80°). Stroke = subtle.
+           For θ=±80°: sin=±0.9848, cos=0.1736.
+           Left: x = 450 - 0.9848*300 = 154.6; y = 460 - 0.1736*300 = 407.9
+           Right: x = 450 + 295.4 = 745.4; y = 407.9  -->
+      <path d="M 450 460 L 154.6 407.9 A 300 300 0 0 1 745.4 407.9 Z"
+            fill="var(--primary)" opacity=".22" stroke="var(--primary)" stroke-width="1.5"/>
+
+      <!-- Right-side rays (positive θ). Use length 340 for arrows. -->
+      <!-- 80°: sin=0.9848, cos=0.1736 → x=450+334.8=784.8, y=460-59.0=401.0 -->
+      <line x1="450" y1="460" x2="784.8" y2="401.0" stroke="var(--primary)" stroke-width="3"/>
+      <text x="795" y="398" font-size="12" font-weight="700" fill="var(--primary)" font-family="General Sans">80° Normal</text>
+
+      <!-- 84°: sin=0.9945, cos=0.1045 → x=450+338.1=788.1, y=460-35.5=424.5 -->
+      <line x1="450" y1="460" x2="788.1" y2="424.5" stroke="var(--blue)" stroke-width="2.5" stroke-dasharray="6 3"/>
+      <text x="795" y="428" font-size="12" font-weight="700" fill="var(--blue)" font-family="General Sans">84° Horn</text>
+
+      <!-- 94°: sin=0.9976, cos=-0.0698 → x=450+339.2=789.2, y=460+23.7=483.7 -->
+      <line x1="450" y1="460" x2="789.2" y2="483.7" stroke="var(--gold)" stroke-width="2.5" stroke-dasharray="6 3"/>
+      <text x="795" y="487" font-size="12" font-weight="700" fill="var(--gold)" font-family="General Sans">94° CAS</text>
+
+      <!-- 100°: sin=0.9848, cos=-0.1736 → x=450+334.8=784.8, y=460+59.0=519.0 -->
+      <line x1="450" y1="460" x2="784.8" y2="519.0" stroke="var(--rust)" stroke-width="3"/>
+      <text x="795" y="522" font-size="12" font-weight="700" fill="var(--rust)" font-family="General Sans">100° Damage</text>
+
+      <!-- Left-side rays (mirror) -->
+      <line x1="450" y1="460" x2="115.2" y2="401.0" stroke="var(--primary)" stroke-width="3"/>
+      <text x="105" y="398" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="end" font-family="General Sans">80°</text>
+      <line x1="450" y1="460" x2="111.9" y2="424.5" stroke="var(--blue)" stroke-width="2.5" stroke-dasharray="6 3"/>
+      <text x="105" y="428" font-size="12" font-weight="700" fill="var(--blue)" text-anchor="end" font-family="General Sans">84°</text>
+      <line x1="450" y1="460" x2="110.8" y2="483.7" stroke="var(--gold)" stroke-width="2.5" stroke-dasharray="6 3"/>
+      <text x="105" y="487" font-size="12" font-weight="700" fill="var(--gold)" text-anchor="end" font-family="General Sans">94°</text>
+      <line x1="450" y1="460" x2="115.2" y2="519.0" stroke="var(--rust)" stroke-width="3"/>
+      <text x="105" y="522" font-size="12" font-weight="700" fill="var(--rust)" text-anchor="end" font-family="General Sans">100°</text>
+
+      <!-- center pin -->
+      <circle cx="450" cy="460" r="6" fill="var(--text)"/>
+
+      <!-- Aircraft silhouette (simple top-down nose) -->
+      <g fill="var(--surface-2)" stroke="var(--text)" stroke-width="1.5" opacity=".85">
+        <path d="M 450 200 Q 430 220 430 290 L 430 420 Q 430 445 450 460 Q 470 445 470 420 L 470 290 Q 470 220 450 200 Z"/>
+        <!-- wings -->
+        <path d="M 430 300 L 320 360 L 320 380 L 430 340 Z"/>
+        <path d="M 470 300 L 580 360 L 580 380 L 470 340 Z"/>
+      </g>
+
+      <!-- Legend top-left -->
+      <g font-family="General Sans" font-size="12" font-weight="700">
+        <rect x="30" y="30" width="260" height="110" rx="6" fill="var(--surface-2)" stroke="var(--border)"/>
+        <text x="40" y="50" fill="var(--muted)" font-size="10" letter-spacing=".07em">TOWING ANGLE FROM CENTER</text>
+        <circle cx="50" cy="66" r="5" fill="var(--primary)"/><text x="62" y="70" fill="var(--text)">80°  — Normal range</text>
+        <circle cx="50" cy="86" r="5" fill="var(--blue)"/><text x="62" y="90" fill="var(--text)">84°  — Towing horn</text>
+        <circle cx="50" cy="106" r="5" fill="var(--gold)"/><text x="62" y="110" fill="var(--text)">94°  — NWS Oversteer CAS</text>
+        <circle cx="50" cy="126" r="5" fill="var(--rust)"/><text x="62" y="130" fill="var(--text)">100° — Nose gear damage</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="lim-grid cols-2">
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — towing “80 / 84 / 94 / 100 → NHCD”</div>
+      <strong>N</strong>ormal <b>80</b> · <strong>H</strong>orn <b>84</b> · <strong>C</strong>AS <b>94</b> · <strong>D</strong>amage <b>100</b>.<br>
+      Tiny step (4°) to horn → big step (10°) to CAS → tiny step (6°) to damage. The horn is your “tap on the shoulder.”
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — “195 is the gear number”</div>
+      VLO, VLE, and main-tire max all share <code>195 KIAS</code>. Only the nose tire (<b>182</b>) and the conservative emerg extension (<b>175</b>) sit lower.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — brake temps “10 / 100 / 450”</div>
+      <code>10°C</code> minimum before T/O on contaminated rwy · <code>~100°C</code> target after taxi to prevent ice · <code>450°C</code> CAS overheat. Multiplying by ~10 each step.
+    </div>
+  </div>
+</section>
+
+<!-- ================= ICE PROTECTION ================= -->
+<section class="lim-section" id="ice">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07M2 12h20"/></svg>
+    Ice Protection
+  </h2>
+  <ul style="margin-left:1.4rem">
+    <li>Wing anti-ice required if icing conditions are imminent or upon detection of ice on wings, winglets, or windshield edges.</li>
+    <li><b>WAI single-bleed source above 26,000 ft — PROHIBITED.</b></li>
+    <li><b>T/O prohibited</b> with frost/ice/snow/slush on wings, stabilizers, control surfaces, engine inlets, or top of fuselage.</li>
+    <li>WAI <b>not recommended</b> above <code>+10°C TAT</code> or below <code>−40°C SAT</code>.</li>
+    <li><b>Engine anti-ice</b> required:
+      <ul>
+        <li>Taxi/T/O when <code>SAT ≤ +10°C</code></li>
+        <li>Inflight when <code>TAT ≤ +10°C</code> + visible moisture</li>
+      </ul>
+    </li>
+    <li>WAI <b>must be ON for T/O</b> if in icing or icing anticipated.</li>
+    <li>Flaps in icing → T/O, approach, landing only. Holding → 0° flaps only.</li>
+    <li>Probe Heat OVRD on ground &gt; <b>30 sec</b> prohibited.</li>
+    <li>Min holding speed in icing — <code>185 KIAS</code>.</li>
+  </ul>
+
+  <div class="mnemo">
+    <div class="mnemo-title">Mnemonic — “The 10°C rule”</div>
+    <code>+10°C</code> is the magic ice number: it’s the <b>upper</b> bound for engine anti-ice required <em>and</em> the upper bound where WAI is recommended. <strong>Below 10°C → think ice.</strong>
+  </div>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — “SAT on ground, TAT in air”</div>
+    For engine anti-ice: use <b>SAT</b> when stationary (taxi/T/O), <b>TAT</b> once the temp probe sees ram rise (inflight). Same threshold (10°C), different probe.
+  </div>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — WAI envelope “−40 to +10”</div>
+    Don’t use WAI <code>&gt; +10°C TAT</code> (too warm — bleed waste) or <code>&lt; −40°C SAT</code> (too cold — thermal shock risk). A 50°C operating band.
+  </div>
+</section>
+
+<!-- ================= OXYGEN / WATER ================= -->
+<section class="lim-section" id="oxygen">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M7 12h10"/></svg>
+    Oxygen, Water &amp; Waste
+  </h2>
+  <table class="lim-table">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>Hats / “earmuff” headsets</td><td>Remove before donning crew O₂ mask</td></tr>
+    <tr><td>Crew &amp; PAX O₂ masks not approved above</td><td class="num">40,000 <span class="unit">ft cabin alt</span></td></tr>
+    <tr><td>Waste tank rinse</td><td>Water only</td></tr>
+  </table>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — “40 / 40”</div>
+    Cabin O₂ ceiling (<b>40,000</b>) matches APU operation ceiling (<b>40,000</b>). Two unrelated systems, same number — bundle them.
+  </div>
+</section>
+
+<!-- ================= PRESSURIZATION ================= -->
+<section class="lim-section" id="press">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M7 12h10"/></svg>
+    Pneumatics / ECS / Pressurization
+  </h2>
+  <table class="lim-table">
+    <tr><th>Limit</th><th>Value</th></tr>
+    <tr><td>Max cabin Δp — <em>Pre</em>-MOD G25-10081</td><td class="num">9.2 <span class="unit">psi</span></td></tr>
+    <tr><td>Max cabin Δp — <em>Post</em>-MOD G25-10081</td><td class="num">9.72 <span class="unit">psi</span></td></tr>
+    <tr><td>Max cabin Δp for taxi / T/O / landing</td><td class="num">0.2 <span class="unit">psi</span></td></tr>
+    <tr><td>Internal baggage door — Pre-MOD</td><td class="num">40,000 <span class="unit">ft</span></td></tr>
+    <tr><td>Internal baggage door — Post-MOD</td><td class="num">44,000 <span class="unit">ft</span></td></tr>
+    <tr><td>Internal baggage door — taxi/T/O/landing</td><td>Must be CLOSED</td></tr>
+  </table>
+  <div class="mnemo">
+    <div class="mnemo-title">Mnemonic — “Pre / Post = 9.2 / 9.72”</div>
+    The MOD adds exactly <code>+0.52 psi</code>. Easy: pre-MOD is <b>9.2</b>, post-MOD is <b>9.72</b>. And T/O/landing always <code>0.2 psi</code>.
+  </div>
+  <div class="mnemo">
+    <div class="mnemo-title">Pattern — “40 / 44 baggage door”</div>
+    Same MOD: pre-MOD baggage door ceiling <b>40k</b>, post-MOD <b>44k</b>. <em>The MOD buys +4,000 ft of door usability and +0.52 psi cabin delta.</em>
+  </div>
+</section>
+
+<!-- ================= POWERPLANT ================= -->
+<section class="lim-section" id="powerplant">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>
+    Powerplant
+  </h2>
+
+  <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:.6rem 0 .4rem">Engine ground start</h3>
+  <table class="lim-table">
+    <tr><th>Item</th><th>Value</th></tr>
+    <tr><td>Dry motor required if restart between</td><td class="num">15 – 180 <span class="unit">min after shutdown</span></td></tr>
+    <tr><td>Dry motor crank target</td><td class="num">21 % N2 or 15 <span class="unit">sec</span></td></tr>
+    <tr><td>Wait before next start attempt</td><td class="num">3 <span class="unit">min thermal-norm</span></td></tr>
+    <tr><td>Re-do dry crank if elapsed</td><td class="num">&gt; 40 <span class="unit">min</span></td></tr>
+    <tr><td>Max crosswind for engine start</td><td class="num">20 <span class="unit">kt</span></td></tr>
+    <tr><td>Max tailwind for engine start</td><td class="num">15 <span class="unit">kt</span></td></tr>
+    <tr><td>Abort if no light-off within</td><td class="num">30 <span class="unit">sec</span></td></tr>
+    <tr><td>Abort if no positive oil pressure by</td><td class="num">30 <span class="unit">% N2</span></td></tr>
+  </table>
+
+  <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:1rem 0 .4rem">Max ITT during start</h3>
+  <table class="lim-table">
+    <tr><td>N2 at or below 40%</td><td class="num">650 <span class="unit">°C</span></td></tr>
+    <tr><td>N2 above 40%</td><td class="num">950 <span class="unit">°C</span></td></tr>
+  </table>
+
+  <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:1rem 0 .4rem">Starter duty cycle</h3>
+  <ul style="margin-left:1.4rem">
+    <li><b>3 consecutive start/crank cycles</b> → then <b>15 min cool</b>.</li>
+    <li>Engine motoring max <b>5 min</b> → then <b>15 min cool</b>.</li>
+  </ul>
+
+  <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:1rem 0 .4rem">Ground ops &amp; APR</h3>
+  <table class="lim-table">
+    <tr><td>N1 limit if tailwind &gt; 15 kt</td><td class="num">50 <span class="unit">% N1</span></td></tr>
+    <tr><td>Idle before shutdown</td><td class="num">3 <span class="unit">min</span></td></tr>
+    <tr><td>Takeoff thrust (AEO)</td><td class="num">5 <span class="unit">min</span></td></tr>
+    <tr><td>APR (OEI)</td><td class="num">10 <span class="unit">min</span></td></tr>
+    <tr><td>TR cancellation — reverse idle by</td><td class="num">40 <span class="unit">KIAS</span></td></tr>
+    <tr><td>TR for power back</td><td>NOT approved</td></tr>
+  </table>
+
+  <h3 style="font-size:1rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:1rem 0 .4rem">Engine oil</h3>
+  <table class="lim-table">
+    <tr><td>Before engine start</td><td class="num">−40 <span class="unit">°C min</span></td></tr>
+    <tr><td>Above ground idle (continuous)</td><td class="num">+5 <span class="unit">°C min</span></td></tr>
+    <tr><td>Above climb thrust</td><td class="num">+15 <span class="unit">°C min</span></td></tr>
+    <tr><td>Steady-state max</td><td class="num">138 <span class="unit">°C</span></td></tr>
+    <tr><td>Transient (≤ 2 min)</td><td class="num">154 <span class="unit">°C</span></td></tr>
+  </table>
+
+  <div class="lim-grid cols-2">
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — APR “5 &amp; 10”</div>
+      <code>5</code> min takeoff thrust AEO · <code>10</code> min APR OEI. <em>“Lose one, get double the time.”</em>
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — “Three 30s of starting”</div>
+      Abort if no lightoff in <code>30 sec</code> · abort if no oil pressure by <code>30% N2</code> · 3 min wait + 40 min dry-crank re-do bracket the 30s.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — “3-15 starter rule”</div>
+      <b>3 starts</b> → <b>15 min cool</b>. <b>5 min motoring</b> → <b>15 min cool</b>. The cool-down number never changes.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — Oil temp “−40 / +5 / +15 / 138 / 154”</div>
+      Start can be ice-cold (<code>−40</code>). Past idle you need warmth (<code>+5</code>). Above climb thrust, hotter still (<code>+15</code>). Cruise cap <code>138</code>, brief transient <code>154</code> (max 2 min). <strong>Pattern:</strong> the harder the engine works, the higher the floor.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Mnemonic — “ITT 650 below 40, 950 above 40”</div>
+      Below 40% N2 a hot start would mean fuel-rich without airflow → <code>650°C</code>. Above 40% N2 there’s airflow to cool → <code>950°C</code> allowed.
+    </div>
+    <div class="mnemo">
+      <div class="mnemo-title">Pattern — wind for start vs T/O</div>
+      Engine <b>start</b> tolerates more wind than <b>T/O</b>: crosswind <code>20</code>, tailwind <code>15</code>. T/O tailwind limit is only <code>10</code>. (Start = on the brakes, more margin.)
+    </div>
+  </div>
+</section>
+
+<!-- ============= SUMMARY MNEMONIC CHEAT SHEET ============= -->
+<section class="lim-section" id="summary">
+  <h2>
+    <svg class="sec-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>
+    One-Page Cheat Sheet
+    <span class="sec-tag">memorize</span>
+  </h2>
+
+  <div class="lim-grid cols-2">
+    <div>
+      <h3 style="font-size:.95rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em">Altitudes</h3>
+      <ul style="margin-left:1.2rem;font-size:.92rem">
+        <li><b>45k</b> Max op</li>
+        <li><b>40k</b> APU op · O₂ mask ceiling · 40 — pre-MOD bag door</li>
+        <li><b>44k</b> post-MOD bag door</li>
+        <li><b>39k</b> EMP &gt; 10 min limited</li>
+        <li><b>35k</b> APU start</li>
+        <li><b>26k</b> WAI single-bleed prohibited</li>
+        <li><b>25k</b> Yaw damper required above</li>
+        <li><b>20k</b> APU bleed · Gear · Flaps (the “20-20-20”)</li>
+        <li><b>15k</b> APU-assist engine start</li>
+        <li><b>14k / 10k</b> Airport elev (Issue 2 / Issue 1)</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size:.95rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em">Speeds (KIAS unless noted)</h3>
+      <ul style="margin-left:1.2rem;font-size:.92rem">
+        <li><b>250</b> VFE 10° · Yaw-Dmp inop &lt; FL250</li>
+        <li><b>220</b> VFE 20°</li>
+        <li><b>195</b> VLO · VLE · main tire</li>
+        <li><b>185</b> Min hold (icing)</li>
+        <li><b>182</b> Nose tire</li>
+        <li><b>180</b> VFE LAND</li>
+        <li><b>175</b> Emerg gear extension</li>
+        <li><b>40</b> Reverse idle target on TR cancel</li>
+        <li><b>0.77 MI</b> Alt Stab Trim &amp; Mach Trim inop (twin 0.77)</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size:.95rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em">Weights (lbs)</h3>
+      <ul style="margin-left:1.2rem;font-size:.92rem">
+        <li>Ramp <b>39,750</b> · TO <b>39,600</b> · Land <b>32,700</b> · ZFW <b>28,200</b></li>
+        <li>Ramp − TO = <b>150</b> (taxi burn)</li>
+        <li>Baggage: <b>1,980</b> total · <b>120</b> lbs/ft²</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size:.95rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em">Times &amp; cycles</h3>
+      <ul style="margin-left:1.2rem;font-size:.92rem">
+        <li>APR — <b>5</b> AEO / <b>10</b> OEI</li>
+        <li>Starter — 3 cycles → 15 min · motor 5 → 15</li>
+        <li>APU — 2 min between starts · 3 starts → 30 min</li>
+        <li>3 min idle before shutdown</li>
+        <li>EMP &gt; 39k = 10 min</li>
+        <li>Probe heat OVRD on ground &gt; 30 sec prohibited</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size:.95rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em">Temps (°C)</h3>
+      <ul style="margin-left:1.2rem;font-size:.92rem">
+        <li>Ice — <b>+10</b> rule (eng/wing AI)</li>
+        <li>WAI band — <b>−40</b> SAT to <b>+10</b> TAT</li>
+        <li>Brakes — 10 / 100 / 450</li>
+        <li>APU EGT — 974 / 718 / 666</li>
+        <li>Oil — −40 / +5 / +15 / 138 / 154</li>
+        <li>Hyd — 95 max</li>
+        <li>Fuel tank — Jet A −38 / A-1 −46 / both +57</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size:.95rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em">Misc volts / amps / psi</h3>
+      <ul style="margin-left:1.2rem;font-size:.92rem">
+        <li>APU batt start <b>22 V</b> · rotor <b>108%</b></li>
+        <li>Batt charge T/O — APU 20A · no APU 8A</li>
+        <li>Cabin outlets 15A / 3A · total ≤ 17.5A</li>
+        <li>Brake accum <b>700</b> psi · Emerg gear <b>2,700–3,000</b> · Hyd <b>2,700–3,250</b> (3,500 max)</li>
+        <li>Cabin Δp <b>9.2 / 9.72</b> (pre/post) · <b>0.2</b> taxi/T/O/land</li>
+        <li>Refuel pressure ≤ <b>50 psi</b></li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="crumbs" style="margin-top:1.4rem"><a href="../">← Back to Part 135 Transition site</a></p>
+</section>
+
+</div><!-- /wrap -->
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <span class="brand-text"><strong>Part 135</strong> Transition · G280</span>
+      <p class="fineprint">G280 limitations distilled from the Gulfstream 280 Limitations Study Sheet Rev 0.4. <strong>For training purposes only.</strong> Not a substitute for the AFM, QRH, OpSpecs, or guidance from your training department. Always verify against the current approved AFM.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../">← Part 135 site</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Minimal theme toggle (mirrors parent site's pattern)
+  (function(){
+    const root = document.documentElement;
+    const saved = localStorage.getItem('p135theme');
+    if (saved) root.setAttribute('data-theme', saved);
+    const btn = document.getElementById('themeToggle');
+    if (btn) btn.addEventListener('click', () => {
+      const next = (root.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('p135theme', next);
+    });
+  })();
+</script>
+</body>
+</html>
